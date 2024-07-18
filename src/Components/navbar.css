@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  background: transparent;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.nav-links a:hover {
+  color: #ffa500;
+}
+.nav-links .fa {
+  margin-right: 5px;
+}
+
+.logo {
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
