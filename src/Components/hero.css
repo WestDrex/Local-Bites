@@ -6,14 +6,14 @@
   padding-top: 100px;
   padding-bottom: 220px;
 }
-h1 {
+.local-bites {
   font-weight: 400;
   font-family: Poppins, sans-serif;
   font-size: 96px;
   line-height: 144px;
   color: white;
 }
-p {
+.food {
   font-weight: 400;
   font-family: Poppins, sans-serif;
   font-size: 40px;

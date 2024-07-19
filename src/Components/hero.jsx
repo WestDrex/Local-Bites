@@ -5,8 +5,8 @@ import "../Components/hero.css";
 export default function Hero() {
   return (
     <section className="hero-container">
-      <h1>Local Bites</h1>
-      <p>Food for you and me</p>
+      <h1 className="local-bites">Local Bites</h1>
+      <p className="food">Food for you and me</p>
       <SearchBar />
     </section>
   );
