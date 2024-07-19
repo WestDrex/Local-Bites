@@ -1,0 +1,75 @@
+.how-it-works-section {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1519px;
+    width: 100%;
+    padding-bottom: 180px;
+}
+.howItWorks-top h1{
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 133px;
+    text-align: center;
+}
+.howItWorks-top p{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+.three-cards {
+    display: flex;
+    gap: 83px;
+    padding-top: 47px;
+    justify-content: center;
+}
+.three-cards img {
+    margin-left: auto;
+    margin-right: auto ;
+}
+.blog, .order, .recipe {
+    width: 330px;
+    height: 471px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.no-1 img {
+    width: 126.65px;
+    height: 141.39px;
+    margin-top: 32.74px;
+}
+.no-2 img {
+    width: 93.33px;
+    height: 113.33px;
+    margin-top: 16px;
+}
+.no-3 img {
+    width: 152px;
+    height: 152px;
+    margin-top: 20px;
+}
+.three-cards h2 {
+    margin-top: 10px;
+    font-size: 32px;
+    text-align: center;
+}
+.three-cards p {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    text-align: center;
+}
+.topCircle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bottomCircle {
+    position: absolute;
+    bottom: 0;
+}

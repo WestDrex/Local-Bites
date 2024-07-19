@@ -7,10 +7,13 @@ import PlacesSection from "./Components/places";
 export default function App() {
   return (
     <>
+
       <HeroImage />
       <HowItWorks />
       <Categories />
       <PlacesSection />
+
+
     </>
   );
 }
