@@ -37,6 +37,12 @@
     align-items: center;
     padding: 20px;
 }
+.blog:hover,.order:hover,.recipe:hover {
+    border-style: solid;
+    border-color: #ff640b;
+    border-radius: 10px;
+    box-shadow: 15px 15px 5px rgb(204, 202, 202);
+}
 .no-1 img {
     width: 126.65px;
     height: 141.39px;
