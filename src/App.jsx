@@ -12,9 +12,9 @@ export default function App() {
   return (
     <>
 
-      
+<HeroImage />
       <HowItWorks />
-      <HeroImage />
+      
 
       
     </>
