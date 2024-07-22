@@ -1,26 +1,21 @@
 import React from "react";
 import "../Components/categories.css";
 import CategoriesData from "../categoriesdata";
-import staple from "../assets/Images/staple.png";
-import salad from "../assets/Images/salad.png";
-import soups from "../assets/Images/soups.png";
-import snacks from "../assets/Images/snacks.png";
-import kebab from "../assets/Images/kebab.png";
 
 export default function Categories() {
   return (
     <div className="categories-container">
       <h1>Categories</h1>
-      <div className="categories">
+      <div className="categories-section">
         {CategoriesData.map((category) => (
-          <div className="card" key={category.id}>
+          <div className="categories-card" key={category.id}>
             <img
               src={category.imgSrc}
               alt={category.foodname}
               className="category-image"
             />
-            <div className="card-content">
-              <p className="card-title">{category.foodname}</p>
+            <div className="categories-card-content">
+              <p className="categories-card-title">{category.foodname}</p>
             </div>
           </div>
         ))}
