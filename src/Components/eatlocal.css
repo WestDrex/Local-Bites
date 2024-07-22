@@ -1,0 +1,137 @@
+.dishes-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orange-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #ff640b;
+  margin: 4px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  /* align-items: flex-start; */
+}
+
+.dishes-text-section {
+  width: 188px;
+  height: 194px;
+  margin-right: 20px;
+  /* border: 1px solid red; */
+  border-radius: 15px 15px 0 0;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  background: #fff;
+  padding: 10px;
+}
+
+.dishes-text-section h2 {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.dishes-text-section h3 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 5px 0;
+}
+
+.dishes-text-section p {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dishes-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.card {
+  position: relative;
+  width: 265px;
+  height: 350px;
+  background: #cfcece;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dish-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+  background: #f6f6f6;
+  border: 2px solid rgb(135, 79, 79);
+  border-radius: 15px 15px 0 0;
+}
+
+.card-content h4 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.rating {
+  font-size: 14px;
+  color: #ffd700;
+  margin: 5px 0;
+}
+
+.content-add-button {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  /* width: 56px;
+  height: 56px; */
+  width: 40px;
+  height: 40px;
+  border: none;
+  /* border-radius: 50%; */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: none;
+  background-color: orange;
+
+  color: white;
+  font-size: 34px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.see-more {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}

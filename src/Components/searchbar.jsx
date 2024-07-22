@@ -11,7 +11,6 @@ const SearchBar = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Searching for:", searchTerm);
-    // Implement your search logic here
   };
 
   return (
@@ -33,22 +32,3 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
-
-// import React from "react";
-// import "../Components/hero.css";
-
-// export default function Hero() {
-//   return (
-//     <section className="hero-container">
-//       <h1>Local Bites</h1>
-//       <p>Food for you and me</p>
-//       <div className="searchbar">
-//         <input
-//           type="text"
-//           placeholder="Search places and foods"
-//           className="searchbutton "
-//         />
-//       </div>
-//     </section>
-//   );
-// }

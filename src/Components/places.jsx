@@ -17,7 +17,7 @@ const PlacesSection = () => {
     <div className="places-container">
       <h1>Recipes and Places to Get you started</h1>
       <div className="places-cards">
-        <div className="text-section">
+        <div className="places-text-section">
           <h2>Destination guides</h2>
           <h3>Get Inspired</h3>
           <p>
@@ -30,14 +30,14 @@ const PlacesSection = () => {
             <img src={place.image} alt={place.name} className="place-image" />
             <div className="places-card-content">
               <h4>{place.name}</h4>
-              <div className="rating">
+              <div className="places-rating">
                 {"★".repeat(place.rating)}
                 {"☆".repeat(5 - place.rating)}
               </div>
-              <button className="discover-button">Discover</button>
+              <button className="places-discover-button">Discover</button>
             </div>
             <button
-              className="favorite-button"
+              className="places-favorite-button"
               onClick={() => toggleFavorite(place.id)}
             >
               {favorites.includes(place.id) ? "❤️" : "🤍"}

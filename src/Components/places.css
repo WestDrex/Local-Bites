@@ -3,7 +3,7 @@
   text-align: center;
 }
 
-.text-section {
+.places-text-section {
   margin-bottom: 20px;
   /* width: 188px; */
   width: 170px;
@@ -11,19 +11,19 @@
   margin-top: 120px;
 }
 
-.text-section h2 {
+.places-text-section h2 {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
 }
 
-.text-section h3 {
+.places-text-section h3 {
   font-size: 18px;
   margin: 5px 0;
   font-weight: 400;
 }
 
-.text-section p {
+.places-text-section p {
   font-size: 14px;
 }
 
@@ -71,13 +71,13 @@
   font-size: 16px;
 }
 
-.rating {
+.places-rating {
   font-size: 20px;
   color: #ffd700;
   margin: 5px 0;
 }
 
-.discover-button {
+.places-discover-button {
   margin-left: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -95,7 +95,7 @@
   font-weight: 400;
 }
 
-.favorite-button {
+.places-favorite-button {
   position: absolute;
   top: 10px;
   right: -15px;

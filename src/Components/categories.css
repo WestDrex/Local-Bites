@@ -12,7 +12,7 @@
   line-height: 72px;
 }
 
-.categories {
+.categories-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   margin-bottom: 90px;
 }
 
-.card {
+.categories-card {
   position: relative;
   width: 188px;
   height: 107px;
@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.card:hover {
+.categories-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -53,7 +53,7 @@
   height: auto;
 }
 
-.card-content {
+.categories-card-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   width: 100%;
 }
 
-.card-title {
+.categories-card-title {
   margin-top: 50px;
   font-weight: bold;
 }

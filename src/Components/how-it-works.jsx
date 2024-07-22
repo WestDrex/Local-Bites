@@ -5,6 +5,8 @@ import blog from "../assets/Images/blog.png"
 import topCircle from "../assets/Images/Vector 15.png"
 import bottomCircle from "../assets/Images/Ellipse 19.png"
 import '../Components/how-it-works.css'
+
+
 export default function HowItWorks() {
     return(
         <div className="how-it-works-section">
