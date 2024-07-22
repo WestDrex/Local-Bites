@@ -79,3 +79,24 @@
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (max-width: 1120px) {
+    .bottomCircle {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topCircle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .three-cards {
+        flex-wrap: wrap;
+    }
+}
