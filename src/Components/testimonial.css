@@ -84,3 +84,9 @@
         margin-right: auto;
     }
 }
+
+@media screen and (max-width: 1020px) {
+    .top, .middle, .bottom {
+        width: 100%;
+    }
+}
