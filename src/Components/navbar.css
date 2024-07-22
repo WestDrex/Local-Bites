@@ -50,7 +50,9 @@ button {
 }
 .cart {
   background-color: #ff640b;
+  cursor: pointer;
 }
 .user {
   background-color: transparent;
+  cursor: pointer;
 }

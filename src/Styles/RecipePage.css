@@ -1,0 +1,9 @@
+.recipe-container {
+  padding: 20px;
+}
+
+.recipe-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -12,33 +12,35 @@ export default function Navbar() {
 
       <ul className="navbar">
         <li>
-          <a href="#" class="active">
+          <Link to="/" class="active">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" class="active">
+          <Link to="/recipe" class="active">
             Recipe
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" class="active">
+          <Link to="/order" class="active">
             Order
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" class="active">
+          <Link to="/blog" class="active">
             Blog
-          </a>
+          </Link>
         </li>
       </ul>
 
       <div className="nav-button">
         <button className="user">
-          <img src={user} alt="user" /> Sign Up
+          <img src={user} alt="user" />
+          <Link to="/signup"> Sign Up</Link>
         </button>
         <button className="cart">
-          <img src={cart} alt="cart" /> Cart
+          <img src={cart} alt="cart" />
+          <Link to="/signup">Cart</Link>
         </button>
       </div>
     </nav>
