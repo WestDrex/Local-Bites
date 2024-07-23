@@ -60,3 +60,7 @@ button {
   cursor: pointer;
   text-decoration: none;
 }
+.nav-button a {
+  color: white;
+  text-decoration: none;
+}
