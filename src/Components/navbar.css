@@ -54,3 +54,7 @@ button {
 .user {
   background-color: transparent;
 }
+.nav-button a {
+  color: white;
+  text-decoration: none;
+}

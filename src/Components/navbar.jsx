@@ -35,10 +35,10 @@ export default function Navbar() {
 
       <div className="nav-button">
         <button className="user">
-          <img src={user} alt="user" /> Sign Up
+          <img src={user} alt="user" /><a href="">Sign Up</a> 
         </button>
         <button className="cart">
-          <img src={cart} alt="cart" /> Cart
+          <img src={cart} alt="cart" /><a href="">Cart</a> 
         </button>
       </div>
     </nav>
