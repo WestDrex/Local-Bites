@@ -44,13 +44,16 @@ button {
   color: white;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   padding: 5px;
   border: none;
   border-radius: 5px;
 }
 .cart {
   background-color: #ff640b;
+  cursor: pointer;
 }
 .user {
   background-color: transparent;
+  cursor: pointer;
 }

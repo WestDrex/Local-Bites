@@ -1,6 +1,7 @@
 .dishes-container {
   padding: 20px;
   width: 100%;
+  text-align: center;
 }
 
 .header-bar {
@@ -17,9 +18,10 @@
   margin: 4px 0;
 }
 
-.content {
+.dishes-content {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   /* align-items: flex-start; */
 }
 
@@ -37,6 +39,7 @@
 .dishes-text-section h2 {
   font-size: 16px;
   font-family: Poppins, sans-serif;
+  color: black;
   font-weight: 400;
   line-height: 24px;
   margin: 0;
@@ -47,6 +50,7 @@
   font-family: Poppins, sans-serif;
   font-weight: 400;
   line-height: 36px;
+  color: black;
   margin: 5px 0;
 }
 
@@ -54,6 +58,7 @@
   font-size: 16px;
   font-family: Poppins, sans-serif;
   font-weight: 400;
+  color: black;
   line-height: 24px;
 }
 
@@ -66,12 +71,15 @@
   width: 75%;
 }
 
-.card {
+.main-card {
   position: relative;
   width: 265px;
-  height: 350px;
-  background: #cfcece;
-  border: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  /* height: 350px; */
+  height: 300px;
+  background: #b1aeae;
+  /* border: 2px solid #ccc; */
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -82,23 +90,36 @@
   width: 100%;
   height: 150px;
   object-fit: cover;
+  margin-bottom: -10px;
 }
 
-.card-content {
+.dishes-card-content {
   padding: 10px;
-  background: #f6f6f6;
-  border: 2px solid rgb(135, 79, 79);
-  border-radius: 15px 15px 0 0;
+  background: #ececec;
+  margin-top: 10px;
+  z-index: 100;
+  margin-top: -10px;
+  /* z-index: auto; */
+  /* border: 2px solid rgb(135, 79, 79); */
+  border-radius: 18px 18px 0 0;
 }
 
-.card-content h4 {
+.dishes-card-content h4 {
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 24px;
+  color: black;
+  font-weight: 900;
+  line-height: 31px;
+  font-family: Poppins, sans-serif;
 }
 
-.card-content p {
+.dishes-card-content p {
   font-size: 14px;
   margin: 5px 0;
+  color: black;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: Poppins, sans-serif;
 }
 
 .rating {
