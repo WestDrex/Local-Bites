@@ -3,31 +3,35 @@ import logo from "../assets/Images/logo.png";
 import user from "../assets/Images/user.png";
 import cart from "../assets/Images/cart.png";
 import "../Components/navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
+  const location = useLocation();
+  const isRecipePage = location.pathname.includes("/recipe");
+
+  const linkStyle = isRecipePage ? { color: "black" } : { color: "white" };
   return (
     <nav className="navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
       <ul className="navbar">
         <li>
-          <Link to="/" class="active">
+          <Link to="/" style={linkStyle} class="active">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/recipe" class="active">
+          <Link to="/recipe" style={linkStyle} class="active">
             Recipe
           </Link>
         </li>
         <li>
-          <Link to="/order" class="active">
+          <Link to="/order" style={linkStyle} class="active">
             Order
           </Link>
         </li>
         <li>
-          <Link to="/blog" class="active">
+          <Link to="/blog" style={linkStyle} class="active">
             Blog
           </Link>
         </li>

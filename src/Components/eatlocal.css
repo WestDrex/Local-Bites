@@ -1,6 +1,7 @@
 .dishes-container {
   padding: 20px;
   width: 100%;
+  text-align: center;
 }
 
 .header-bar {
@@ -20,6 +21,7 @@
 .dishes-content {
   display: flex;
   align-items: center;
+  margin-top: 30px;
   /* align-items: flex-start; */
 }
 
@@ -70,13 +72,14 @@
 }
 
 .main-card {
-  /* position: relative; */
+  position: relative;
   width: 265px;
   display: flex;
   flex-direction: column;
-  height: 350px;
-  /* background: #cfcece; */
-  border: 2px solid #ccc;
+  /* height: 350px; */
+  height: 300px;
+  background: #b1aeae;
+  /* border: 2px solid #ccc; */
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -92,23 +95,31 @@
 
 .dishes-card-content {
   padding: 10px;
-  background: #594b4b;
+  background: #ececec;
   margin-top: 10px;
   z-index: 100;
   margin-top: -10px;
   /* z-index: auto; */
   /* border: 2px solid rgb(135, 79, 79); */
-  border-radius: 15px 15px 0 0;
+  border-radius: 18px 18px 0 0;
 }
 
 .dishes-card-content h4 {
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 24px;
+  color: black;
+  font-weight: 900;
+  line-height: 31px;
+  font-family: Poppins, sans-serif;
 }
 
 .dishes-card-content p {
   font-size: 14px;
   margin: 5px 0;
+  color: black;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: Poppins, sans-serif;
 }
 
 .rating {

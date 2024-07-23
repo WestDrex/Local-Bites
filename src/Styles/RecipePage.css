@@ -1,3 +1,6 @@
+.navbar a -RecipePage {
+  color: black;
+}
 .recipe-container {
   padding: 20px;
 }
