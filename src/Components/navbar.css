@@ -48,12 +48,15 @@ button {
   padding: 5px;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 .cart {
   background-color: #ff640b;
   cursor: pointer;
+  text-decoration: none;
 }
 .user {
   background-color: transparent;
   cursor: pointer;
+  text-decoration: none;
 }
