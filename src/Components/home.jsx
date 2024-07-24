@@ -7,7 +7,7 @@ import HomePage from "../Pages/Homepage";
 import RecipesPage from "../Pages/RecipePage";
 import OrderPage from "../Pages/OrderPage";
 import BlogPage from "../Pages/BlogPage";
-import SignUpPage from "../Pages/SignupPage";
+import SignUpPage from "../Pages/LoginPage";
 
 export default function Home() {
   return (
