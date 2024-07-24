@@ -1,5 +1,85 @@
-.grr {
-  font-size: 40px;
-  font-weight: 900;
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.recipeHero {
+  width: 100%;
+  max-width: 1519px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 88px 70px 0 70px;
+}
+.heroConatainer {
+  border-radius: 60px;
+  background-color: #FF640B;
+}
+.heroConatainer h1 {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+}
+.heroContent {
+  width: 100%;
+  display: flex;
+}
+.leftHero {
+  width: 100%;
+  padding: 36px 100px 56px 64px;
+}
+.leftUp h2 {
+  color: white;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 70px;
+}
+.leftUp p {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  margin: 24px 0 24px 0;
+}
+.buttonContainer {
+  display: flex;
+  gap: 16px;
+}
+.upButton {
+  border-radius: 30px;
+  background-color: black;
+}
+.leftDown {
+  display: flex;
+  margin-top: 93px;
+  gap: 143px;
+}
+.leftUser {
+  display: flex;
+  gap: 16px;
+}
+.leftUser h3{
+  font-size: 16px;
+  color: white;
+}
+.leftUser h4{
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.rightDown button{
+  width: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: black;
+}
+.rightDown img{
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1325px) {
+  .heroContent {
+    flex-direction: column;
+  }
+  .jollof {
+    width: auto;
+  }
 }
