@@ -1,10 +1,10 @@
 import React from "react";
-import SignUpTop from "./SignUpPageComponents/SignUpTop";
+import SignUp from "./SignUpPageComponents/SignUp";
 import Navbar from "../Components/navbar";
 // import "../Styles/RecipePage.css";
 
 export default function SignUpPage() {
   return (
-    <SignUpTop />
+    <SignUp />
   );
 }

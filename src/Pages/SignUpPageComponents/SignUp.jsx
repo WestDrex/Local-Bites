@@ -2,8 +2,8 @@ import React from "react";
 import whiteLogo from "../../assets/Images/Group 21.png";
 import rightImg from "../../assets/Images/Rectangle 108.png";
 import google from "../../assets/Images/image 37.png";
-import "../SignUpPageComponents/SignUpTop.css";
-export default function SignUpTop() {
+import "../SignUpPageComponents/SignUp.css";
+export default function SignUp() {
     return (
         <div className="signUpContainer">
             <div className="signLeft">
@@ -25,6 +25,16 @@ export default function SignUpTop() {
                         <p>OR</p>
                         <hr/>
                     </div>
+                    <div className="formContainer">
+                        <form>
+                            <input type="text" placeholder="Name" className="inputField" />
+                            <input type="email" placeholder="Email" className="inputField" />
+                            <input type="password" placeholder="Password" className="inputField" />
+                            <input type="password" placeholder="Confirm Password" className="inputField" />
+                            <button type="submit" className="signInButton">Sign In</button>
+                        </form>
+                    </div>
+                    <p className="logInText">Already have an Account? <a href="/login">Log In</a></p>
                 </div>
             </div>
 

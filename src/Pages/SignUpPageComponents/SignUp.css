@@ -56,7 +56,6 @@
 }
 .or {
     padding-top: 7px;
-    padding-bottom: 16px;
     display: flex;
     align-items: center;
 }
@@ -75,4 +74,34 @@ hr {
 }
 .rightImg {
     object-fit: cover;
+}
+.inputField {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #FF640B;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.signInButton {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #FF640B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logInText {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.logInText a {
+    color: #FF640B;
+    text-decoration: none;
 }
