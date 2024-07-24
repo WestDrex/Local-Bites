@@ -9,9 +9,10 @@ import Testimonial from "./Components/testimonial";
 import HomeFooter from "./Components/homeFooter";
 import HomePage from "./Pages/Homepage";
 import RecipesPage from "./Pages/RecipePage";
+import FoodDetailPage from "./Pages/RecipeDetailsComponents/FoodDetailsPage";
 import OrderPage from "./Pages/OrderPage";
 import BlogPage from "./Pages/BlogPage";
-import SignUpPage from "./Pages/SignupPage";
+import SignUpPage from "./Pages/LoginPage";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
       <Route path="/order" element={<OrderPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/fooddetailspage" element={<FoodDetailPage />} />
     </Routes>
   );
 }

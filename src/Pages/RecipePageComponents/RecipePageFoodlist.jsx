@@ -1,6 +1,8 @@
 import React from "react";
 import "../RecipePageComponents/RecipePageFoodlist.css";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import FoodDetailPage from "../RecipeDetailsComponents/FoodDetailsPage";
 // import RecipeListdata from "./RecipeFoodlistData";
 import RecipeListdata from "../RecipePageComponents/RecipeFoodlistData";
 
@@ -42,15 +44,18 @@ const RecipePageFoodlist = ({ title }) => {
                   <h4>{dish.name}</h4>
                   <p>
                     {dish.description}
-                    <a href="#" className="foodlist-read-more">
+                    <Link to="/fooddetailspage" className="foodlist-read-more">
                       Read More...
-                    </a>
+                    </Link>
                   </p>
                   <div className="foodlist-rating">
                     {"★".repeat(dish.rating)}
                     {"☆".repeat(5 - dish.rating)}
                   </div>
-                  <button className="foodlist-content-add-button">+</button>
+
+                  <Link to="/fooddetailspage">
+                    <button className="foodlist-content-add-button">+</button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
