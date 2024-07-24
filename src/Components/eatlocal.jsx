@@ -9,6 +9,7 @@ const DishesSection = () => {
         <div className="orange-bar"></div>
         <div className="orange-bar"></div>
       </div>
+
       <div className="dishes-content">
         <div className="dishes-text-section">
           <h2>Essential Dishes</h2>
