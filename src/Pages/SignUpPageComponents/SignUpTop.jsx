@@ -2,8 +2,8 @@ import React from "react";
 import whiteLogo from "../../assets/Images/Group 21.png";
 import rightImg from "../../assets/Images/Rectangle 108.png";
 import google from "../../assets/Images/image 37.png";
-import "../SignUpPageComponents/SignUp.css";
-export default function SignUp() {
+import "../SignUpPageComponents/SignUpTop.css";
+export default function SignUpTop() {
     return (
         <div className="signUpContainer">
             <div className="signLeft">
@@ -18,19 +18,18 @@ export default function SignUp() {
                         <h4>Please Enter Your Details</h4>
                     </div>
 
-                    <button><img src={google} alt="google logo" />Sign Up With Google</button>
+                    <button className="googleButton"><img className="google" src={google} alt="google logo" />Sign Up With Google</button>
 
-                    <hr /><p>OR</p><hr />
-
-                    <div className="detailBox">
-                        <p>Name:</p>
-                        <textarea name="" id=""></textarea>
+                    <div className="or">
+                        <hr/>
+                        <p>OR</p>
+                        <hr/>
                     </div>
                 </div>
             </div>
 
             <div className="signRight">
-            <img className="righImg" src={rightImg} alt="icon" />
+                <img className="rightImg" src={rightImg} alt="icon" />
             </div>
             
         </div>
