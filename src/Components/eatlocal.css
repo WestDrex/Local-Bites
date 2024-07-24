@@ -20,7 +20,10 @@
 
 .dishes-content {
   display: flex;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
   margin-top: 30px;
   /* align-items: flex-start; */
 }
@@ -29,9 +32,7 @@
   width: 188px;
   height: 194px;
   margin-right: 20px;
-  /* border: 1px solid red; */
   border-radius: 15px 15px 0 0;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   background: #fff;
   padding: 10px;
 }
@@ -95,7 +96,7 @@
 
 .dishes-card-content {
   padding: 10px;
-  background: #ececec;
+  background: #f1f0f0;
   margin-top: 10px;
   z-index: 100;
   margin-top: -10px;
