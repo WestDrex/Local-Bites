@@ -12,7 +12,10 @@ import RecipesPage from "./Pages/RecipePage";
 import FoodDetailPage from "./Pages/RecipeDetailsComponents/FoodDetailsPage";
 import OrderPage from "./Pages/OrderPage";
 import BlogPage from "./Pages/BlogPage";
-import SignUpPage from "./Pages/LoginPage";
+import SignUp from "./Pages/SignUpPageComponents/SignUpPage";
+// import SignUpPage from "./Pages/LoginPage";
+// import SignUp from "./SignUpPageComponents/SignUp";
+import LogInPage from "./Pages/LoginPage";
 
 export default function App() {
   return (
@@ -34,8 +37,9 @@ export default function App() {
       <Route path="/recipe" element={<RecipesPage />} />
       <Route path="/order" element={<OrderPage />} />
       <Route path="/blog" element={<BlogPage />} />
-      <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/login" element={<LogInPage />} />
       <Route path="/fooddetailspage" element={<FoodDetailPage />} />
+      <Route path="/signup" element={<SignUp />} />
     </Routes>
   );
 }
