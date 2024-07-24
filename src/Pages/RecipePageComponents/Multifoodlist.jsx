@@ -1,5 +1,8 @@
 import React from "react";
 import RecipePageFoodlist from "./RecipePageFoodlist";
+import FoodDetailPage from "../RecipeDetailsComponents/FoodDetailsPage";
+
+import { Router, Routes, Route } from "react-router-dom";
 
 const MultipleFoodlists = () => {
   const numberOfFoodlists = 5; // Set the number of times you want to render RecipePageFoodlist
