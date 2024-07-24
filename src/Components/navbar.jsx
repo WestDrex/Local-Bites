@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="nav-button">
         <button className="user">
           <img src={user} alt="user" />
-          <Link to="/signup"> Log In</Link>
+          <Link to="/login"> Log In</Link>
         </button>
         <button className="cart">
           <img src={cart} alt="cart" />
