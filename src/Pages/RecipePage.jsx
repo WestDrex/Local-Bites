@@ -19,7 +19,6 @@ export default function RecipesPage() {
       <RecipePageHero />
       <FoodlistNav />
       <MultipleFoodlists />
-
       <RecipePageShare />
       <HomeFooter />
     </div>
