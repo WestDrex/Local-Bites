@@ -13,8 +13,7 @@ import FoodDetailPage from "./Pages/RecipeDetailsComponents/FoodDetailsPage";
 import OrderPage from "./Pages/OrderPage";
 import BlogPage from "./Pages/BlogPage";
 import SignUp from "./Pages/SignUpPageComponents/SignUpPage";
-// import SignUpPage from "./Pages/LoginPage";
-// import SignUp from "./SignUpPageComponents/SignUp";
+
 import LogInPage from "./Pages/LoginPage";
 
 export default function App() {
