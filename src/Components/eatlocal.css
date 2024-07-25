@@ -109,7 +109,8 @@
   margin: 10px 0;
   font-size: 24px;
   color: black;
-  font-weight: 900;
+  text-align: left;
+  font-weight: 700;
   line-height: 31px;
   font-family: Poppins, sans-serif;
 }
@@ -119,7 +120,15 @@
   margin: 5px 0;
   color: black;
   font-weight: 400;
+  text-align: left;
   line-height: 18px;
+  font-family: Poppins, sans-serif;
+}
+.dishes-card-content a {
+  font-size: 12px;
+  color: #FF640B;
+  font-weight: 200;
+  text-decoration: none;
   font-family: Poppins, sans-serif;
 }
 
@@ -127,6 +136,7 @@
   font-size: 14px;
   color: #ffd700;
   margin: 5px 0;
+  display: flex;
 }
 
 .content-add-button {
