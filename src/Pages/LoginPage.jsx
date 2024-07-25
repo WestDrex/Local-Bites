@@ -41,9 +41,12 @@ export default function LogInPage() {
                 <img className="google" src={google} alt="google logo" />
                 Log In With Google
               </button>
-              <button type="submit" className="signInButton">
-                Log In
-              </button>
+
+              <Link className="linkstyles" to="/">
+                <button type="submit" className="signInButton">
+                  Log In
+                </button>
+              </Link>
             </form>
           </div>
           <p className="logInText">
