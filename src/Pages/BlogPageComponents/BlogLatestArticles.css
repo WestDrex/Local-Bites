@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.latestArticlesContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1519px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    padding-right: 103px;
+}
+.latestArticlesContent {
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.latestArticlesContainer h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: black;
+    padding-bottom: 40px;
+}
+.LatestCard {
+    width: 387px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.LatestCard h3, h2, p, span {
+    text-align: left;
+}
+.LatestCard h3 {
+    font-size: 16px;
+    color: #FF640B;
+    padding-top: 10.76px;
+    padding-bottom: 16px;
+    font-weight: 500;
+}
+.LatestCard h2 {
+    font-size: 24px;
+    color: black;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+.LatestCard p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.600);
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+.LatestCard span {
+    font-size: 16px;
+    color: #FF640B;
+    font-weight: 400;
+}

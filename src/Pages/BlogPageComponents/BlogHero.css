@@ -8,6 +8,10 @@
     padding-left: 118px;
     padding-right: 260px;
     padding-bottom: 285px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1519px;
 }
 .BlogHeroContent h1 {
     font-size: 64px;

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.popularArticlesSection {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1519px;
+    padding: 80px 80px 120px 80px;
+}
+.popularArticlesSection h3 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 300;
+    color: black;
+    padding-bottom: 40px;
+}
+.popularArticlesContent {
+    display: flex;
+}
+.leftArticle p, h2, h5 {
+    text-align: left;
+}
+.puffDate {
+    margin-top: 24px;
+    font-size: 16px;
+    padding-bottom: 24px;
+    font-weight: 500;
+}
+.leftArticle h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.puffDescription {
+    color: rgba(0, 0, 0, 0.600);
+    font-size: 16px;
+    font-weight: 400;
+}
+.leftArticle h5 {
+    color: #FF640B;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rightArticle {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    gap: 40px;
+}
+.rightArticleCard {
+    display: flex;
+}
+.cardDeets {
+    padding-top: 13px;
+    padding-left: 24px;
+}
+.cardDeets p, h2, h5 {
+    text-align: left;
+}
+.rightArticleDate {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.rightArticleHeader {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.rightArticleDescription {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 13px;
+    color: rgba(0, 0, 0, 0.600);
+}
+.orangeSpan {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF640B;
+}
+
+@media screen and (max-width: 1370px) {
+    .popularArticlesContent {
+        flex-direction: column;
+    }
+    .leftArticle {
+        width: 566px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 70px;
+    }
+    .popularArticlesSection h3 {
+        text-align: center;
+    }
+}
