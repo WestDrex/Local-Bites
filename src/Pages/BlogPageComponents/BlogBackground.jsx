@@ -1,10 +1,13 @@
 import React from "react";
 import "../BlogPageComponents/BlogBackground.css";
 import RecipeDetailsNav from "../RecipeDetailsComponents/recipedetailsnav";
+
 import BlogHero from "./BlogHero";
 export default function BlogBackground() {
+  return (
     <div className="blogbackground">
-        <RecipeDetailsNav/>
-        <BlogHero/>
+      <RecipeDetailsNav />
+      <BlogHero />
     </div>
+  );
 }

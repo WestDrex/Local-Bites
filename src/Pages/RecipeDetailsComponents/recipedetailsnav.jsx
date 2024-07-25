@@ -36,9 +36,9 @@ export default function RecipeDetailsNav() {
       <div className="recipe-nav-button">
         <button className="user">
           <img src={blackuser} alt="user" />
-          <Link className="linkstyle" to="/signup">
+          <Link className="linkstyle" to="/login">
             {" "}
-            Sign Up
+            Log In
           </Link>
         </button>
         <button className="cart">

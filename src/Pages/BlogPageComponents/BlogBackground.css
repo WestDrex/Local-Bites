@@ -1,3 +1,9 @@
 .blogbackground {
-    background-image: url(/src/assets/Images/Rectangle\ 110.png);
+  background-image: url(/src/assets/Images/Rectangle\ 110.png);
+
+  width: 100%;
+
+  padding-top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
