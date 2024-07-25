@@ -1,44 +1,51 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-
+import logo from "../../assets/Images/logo.png";
+import blackuser from "../../assets/Images/blackuser.png";
+import cart from "../../assets/Images/cart.png";
 import "../../Pages/RecipeDetailsComponents/recipedetailsnav.css";
 
 export default function RecipeDetailsNav() {
   return (
-    <nav className="navbar-container">
+    <nav className="recipe-navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
-      <ul className="navbar">
+      <ul className="recipe-navbar">
         <li>
-          <Link to="/" style={linkStyle} class="active">
+          <Link to="/" class="active">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/recipe" style={linkStyle} class="active">
+          <Link to="/recipe" class="active">
             Recipe
           </Link>
         </li>
         <li>
-          <Link to="/order" style={linkStyle} class="active">
+          <Link to="/order" class="active">
             Order
           </Link>
         </li>
         <li>
-          <Link to="/blog" style={linkStyle} class="active">
+          <Link to="/blog" class="active">
             Blog
           </Link>
         </li>
       </ul>
 
-      <div className="nav-button">
+      <div className="recipe-nav-button">
         <button className="user">
-          <img src={user} alt="user" />
-          <Link to="/signup"> Sign Up</Link>
+          <img src={blackuser} alt="user" />
+          <Link className="linkstyle" to="/signup">
+            {" "}
+            Sign Up
+          </Link>
         </button>
         <button className="cart">
           <img src={cart} alt="cart" />
-          <Link to="/signup">Cart</Link>
+          <Link className="linkstyle2" to="/signup">
+            Cart
+          </Link>
         </button>
       </div>
     </nav>
