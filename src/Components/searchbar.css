@@ -29,7 +29,6 @@
 
 .search-input {
   border: none;
-  /* padding: 10px; */
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
@@ -43,4 +42,10 @@
 
 .search-input::placeholder {
   color: #aaa;
+}
+
+@media screen and (max-width: 640px) {
+  .search-container {
+      display: none;
+  }
 }

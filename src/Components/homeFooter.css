@@ -7,14 +7,13 @@
     width: 100%;
     max-width: 1519px;
     padding-top: 50px;
-    padding-left: 261px;
-    padding-right: 261px;
     padding-bottom: 57px;
     margin-left: auto;
     margin-right: auto;
 }
 .footerContent {
     width: 100%;
+    justify-content: center;
     display: flex;
 }
 .leftSide {
@@ -39,6 +38,7 @@
 }
 .leftSide p {
     margin-top: 8px;
+    text-align: center;
 }
 .rightSide {
     display: flex;
@@ -58,12 +58,6 @@
 .rightSide a{
     text-decoration: none;
     color: #FF640B;
-}
-
-@media screen and (max-width: 1360px) {
-    .footerContainer {
-        padding-left: 20px;
-    }
 }
 
 @media screen and (max-width: 940px) {

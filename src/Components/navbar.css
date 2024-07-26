@@ -66,3 +66,13 @@ button {
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 640px) {
+  .navbar {
+      display: none;
+  }
+  .nav-button {
+    margin-left: auto;
+  }
+}
+
