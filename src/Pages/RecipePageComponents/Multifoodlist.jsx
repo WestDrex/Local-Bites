@@ -5,7 +5,7 @@ import FoodDetailPage from "../RecipeDetailsComponents/FoodDetailsPage";
 import { Router, Routes, Route } from "react-router-dom";
 
 const MultipleFoodlists = () => {
-  const numberOfFoodlists = 5; // Set the number of times you want to render RecipePageFoodlist
+  const numberOfFoodlists = 5;
   const headers = [
     "Staple Foods",
     "Soups/Stews",

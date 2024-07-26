@@ -37,7 +37,7 @@ export default function App() {
       <Route path="/order" element={<OrderPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/login" element={<LogInPage />} />
-      <Route path="/fooddetailspage" element={<FoodDetailPage />} />
+      <Route path="/fooddetailspage/:id" element={<FoodDetailPage />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>
   );

@@ -11,8 +11,6 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
 
-// SwiperCore.use([Navigation]);
-
 const RecipePageFoodlist = ({ title }) => {
   return (
     <div className="foodlist-container">
@@ -44,7 +42,10 @@ const RecipePageFoodlist = ({ title }) => {
                   <h4>{dish.name}</h4>
                   <p>
                     {dish.description}
-                    <Link to="/fooddetailspage" className="foodlist-read-more">
+                    <Link
+                      to={`/fooddetailspage/${dish.id}`}
+                      className="foodlist-read-more"
+                    >
                       Read More...
                     </Link>
                   </p>
@@ -67,15 +68,3 @@ const RecipePageFoodlist = ({ title }) => {
 };
 
 export default RecipePageFoodlist;
-
-//   <div className="food-card">
-//         <img src={food.image} alt={food.name} />
-//         <div className="food-card-content">
-//           <h3>{food.name}</h3>
-//           <p>{food.description} <span className="read-more">Read More</span></p>
-//           <div className="card-footer">
-//             <div className="rating">⭐⭐⭐⭐⭐</div>
-//             <div className="plus-icon">+</div>
-//           </div>
-//         </div>
-//       </div>
