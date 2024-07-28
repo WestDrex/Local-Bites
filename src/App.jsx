@@ -13,6 +13,9 @@ import FoodDetailPage from "./Pages/RecipeDetailsComponents/FoodDetailsPage";
 import OrderPage from "./Pages/OrderPage";
 import BlogPage from "./Pages/BlogPage";
 import SignUp from "./Pages/SignUpPageComponents/SignUpPage";
+import MultipleFoodlists from "./Pages/RecipePageComponents/Multifoodlist";
+import RecipePageFoodlist from "./Pages/RecipePageComponents/RecipePageFoodlist";
+import RecipeListdata from "./Pages/RecipePageComponents/RecipeFoodlistData";
 
 import LogInPage from "./Pages/LoginPage";
 
@@ -37,6 +40,16 @@ export default function App() {
       <Route path="/order" element={<OrderPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/login" element={<LogInPage />} />
+      <Route
+        path="/"
+        element={
+          <RecipePageFoodlist
+            title="Staple Foods"
+            data={RecipeListdata.stapleFoods}
+          />
+        }
+      />
+      {/* <p>remove above later</p> */}
       <Route path="/fooddetailspage/:id" element={<FoodDetailPage />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>

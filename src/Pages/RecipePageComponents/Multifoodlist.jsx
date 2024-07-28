@@ -1,5 +1,6 @@
 import React from "react";
 import RecipePageFoodlist from "./RecipePageFoodlist";
+import RecipeListdata from "./RecipeFoodlistData";
 import FoodDetailPage from "../RecipeDetailsComponents/FoodDetailsPage";
 
 import { Router, Routes, Route } from "react-router-dom";
@@ -14,10 +15,18 @@ const MultipleFoodlists = () => {
     "Snacks",
   ];
 
+  const datasets = [
+    RecipeListdata.stapleFoods,
+    RecipeListdata.soupsStews,
+    RecipeListdata.saladSides,
+    RecipeListdata.streetFoods,
+    RecipeListdata.snacks,
+  ];
+
   return (
     <div>
       {headers.map((header, index) => (
-        <RecipePageFoodlist key={index} title={header} />
+        <RecipePageFoodlist key={index} title={header} data={datasets[index]} />
       ))}
     </div>
   );
