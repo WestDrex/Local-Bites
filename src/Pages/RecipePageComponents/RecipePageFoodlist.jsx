@@ -11,7 +11,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
 
-const RecipePageFoodlist = ({ title }) => {
+const RecipePageFoodlist = ({ title, data }) => {
   return (
     <div className="foodlist-container">
       <h1 className="foodlist-title">{title}</h1>
@@ -28,7 +28,7 @@ const RecipePageFoodlist = ({ title }) => {
           onSlideChange={() => console.log("slide change")}
           className="foodlist-swiper"
         >
-          {RecipeListdata.map((dish) => (
+          {data.map((dish) => (
             <SwiperSlide key={dish.id}>
               <div className="foodlist-main-card">
                 {/* <div className="foodlist-main-card" key={dish.id}>     */}
