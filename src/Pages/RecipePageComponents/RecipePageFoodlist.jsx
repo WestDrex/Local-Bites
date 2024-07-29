@@ -11,9 +11,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
 
-// SwiperCore.use([Navigation]);
-
-const RecipePageFoodlist = ({ title }) => {
+const RecipePageFoodlist = ({ title, data }) => {
   return (
     <div className="foodlist-container">
       <h1 className="foodlist-title">{title}</h1>
@@ -30,7 +28,7 @@ const RecipePageFoodlist = ({ title }) => {
           onSlideChange={() => console.log("slide change")}
           className="foodlist-swiper"
         >
-          {RecipeListdata.map((dish) => (
+          {data.map((dish) => (
             <SwiperSlide key={dish.id}>
               <div className="foodlist-main-card">
                 {/* <div className="foodlist-main-card" key={dish.id}>     */}
@@ -44,7 +42,10 @@ const RecipePageFoodlist = ({ title }) => {
                   <h4>{dish.name}</h4>
                   <p>
                     {dish.description}
-                    <Link to="/fooddetailspage" className="foodlist-read-more">
+                    <Link
+                      to={`/fooddetailspage/${dish.id}`}
+                      className="foodlist-read-more"
+                    >
                       Read More...
                     </Link>
                   </p>
@@ -67,15 +68,3 @@ const RecipePageFoodlist = ({ title }) => {
 };
 
 export default RecipePageFoodlist;
-
-//   <div className="food-card">
-//         <img src={food.image} alt={food.name} />
-//         <div className="food-card-content">
-//           <h3>{food.name}</h3>
-//           <p>{food.description} <span className="read-more">Read More</span></p>
-//           <div className="card-footer">
-//             <div className="rating">⭐⭐⭐⭐⭐</div>
-//             <div className="plus-icon">+</div>
-//           </div>
-//         </div>
-//       </div>
