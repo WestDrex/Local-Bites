@@ -83,3 +83,16 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .leftUp h2 {
+    text-align: center;
+    font-weight: 500;
+  }
+  .leftUp p {
+    text-align: center;
+  }
+  .leftDown {
+    gap: 5px;
+  }
+}
