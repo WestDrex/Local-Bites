@@ -4,6 +4,10 @@ import jollof from "../../assets/Images/image 26.png";
 import snail from "../../assets/Images/snail meat.png";
 import goat from "../../assets/Images/goatmeatsoup.png";
 import moimoi from "../../assets/Images/moi-moi.png";
+import abacha from "../../assets/Images/african salad.png";
+import selene from "../../assets/Images/kitty.png";
+import penelope from "../../assets/Images/penelope.png";
+import chinchin from "../../assets/Images/chin chin.png";
 const FooddetailsData = [
   {
     id: 20,
@@ -16,6 +20,7 @@ const FooddetailsData = [
     cooktime: "45 minutes",
     difficulty: "Moderate",
     displayimg: boledisplay,
+    notesdisplay: "Note:",
     note: "When using an oven, place the peeled plantains on the grill rack and place the rack as close to the grill as possible.The heat should be between 150°C and 200°Cas the plantains need to be roasted slowly. For ripe plantains, you can start off with 170°C and when you see the plantains browning, you can increase to 200°C. For unripe plantains which need to be roasted at even lower temperatures, start with about 150°C. Check from time to time and turn the plantains on all sides to make sure they cook evenly.",
     mealinfo:
       "Bole is a roasted plantain snack or meal in Nigeria. It is native to the Yoruba people of Nigeria but also eaten by Rivers people due to acculturation. It is referred to as 'boli' by the Yoruba people and is eaten with groundnuts. The Yorubas have been enjoying this delicacy for ages, it can be consumed as a snack or main meal which can be accompanied with pepper sauce filled with meat, roasted fish or fried chicken especially during the festive period. The word 'boli' is being pronounced as 'bole' due to a difference in accent in the south-south region in Nigeria and is eaten with roasted fish. Bole went from being eaten at Festivals to becoming a very popular street food. Originally it was roasted half ripped plantain and hot spicy sauce (made from palm oil, pepper and utazi leaves), however roasted potatoes and yam is now part of the dish. Aside from being a popular dish in Yorubaland, and Port Harcourt and environs, It is slowly becoming a staple food at homes of Rivers State people.",
@@ -66,7 +71,6 @@ const FooddetailsData = [
       "Cut small lines in the plantains just to make it cook faster.",
       "Set up your barbecue on medium heat as the plantain needs to be roasted slowly.",
       "If using an oven, set to grill and a temperature of 150ºC.",
-      "Note: When using an oven, place the peeled plantains on the grill rack and place the rack as close to the grill as possible. The heat should be between 150ºC and 200ºC as the plantains need to be roasted slowly. For ripe plantains, you can start off with 170ºC and when you see the plantains browning, you can increase to 200ºC. For unripe plantains which need to be roasted at even lower temperatures, start with about 150ºC. Check from time to time and turn the plantains on all sides to ensure an even roast.",
     ],
 
     ssauce: {
@@ -229,7 +233,7 @@ const FooddetailsData = [
   },
 
   {
-    id: 2,
+    id: 6,
     header: "Catfish Peppersoup",
     userimg: userimgs,
     username: "Justin Hills",
@@ -239,9 +243,11 @@ const FooddetailsData = [
     cooktime: "35 minutes",
     difficulty: "Easy",
     displayimg: boledisplay,
+    notes: "",
     mealinfo:
       "Catfish pepper soup is another variation of Nigerian pepper soup. This pepper soup packed full of flavour from the natural ingredients used. It is cooked with some yam and plantain, it is so comforting and utterly delicious. It is extremely easy and quick to make, a simple Nigerian side dish that is perfect for all weather. Pepper soup is a soup from Nigeria, made using various meats or fishes, chili peppers, scent leaves and calabash nutmeg as the primary ingredients. It is a spicy soup that has a light, watery texture. Despite its name, the soup is not necessarily defined by a pepper-forward flavour profile, that is, the flavours are much more complex, with nutty, bitter, woodsy, and floral notes, as well as warmth. It is considered to be a delicacy by some people in Western Africa, and some West Africans believe that the soup has some basic medicinal qualities.",
     maindish: {
+      name: "",
       ingredients: [
         "1 kg fresh or frozen Catfish",
         "2 teaspoons of Delta Pepper Soup Spice",
@@ -254,26 +260,33 @@ const FooddetailsData = [
         "¼ of an Uyayak pod (optional)",
         "1 piece of Uda (grains of Selim) (optional)",
         "Few pieces of yam cut in bite sized pieces (Optional)",
+        "",
       ],
+    },
+    sauce: {
+      name: "",
+      ingredients: [""],
     },
 
     otherRecipes: [
       {
         title: "Snail meat Stew",
         author: "Andreas Paula",
-        image: "path_to_snail_meat_stew_image",
+        image: snail,
       },
       {
         title: "Pepper Soup",
         author: "Selena Gomez",
-        image: "path_to_pepper_soup_image",
+        image: goat,
       },
       {
         title: "Beans Cake: Moi Moi",
         author: "Living Tombstone",
-        image: "path_to_beans_cake_image",
+        image: moimoi,
       },
     ],
+
+    directionsstep: "",
 
     directioninstructions: [
       "Cut the fresh catfish into cylindrical pieces.",
@@ -294,7 +307,215 @@ const FooddetailsData = [
       "Ensure not to stir the soup with a spoon or ladle, so as not to break the fish up.  ",
       "If necessary shake the pot gently from side to side. ",
       "Turn heat off and serve hot or warm. ",
+      "",
     ],
+    ssauce: {
+      name: "",
+      ingredients: [""],
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
+    fish: {
+      name: "",
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
+  },
+  {
+    id: 12,
+    header: "African Salad(Abacha and Ugba)",
+    userimg: selene,
+    username: "Selene Vrin",
+    date: "25th Jan,2024",
+    prepimg: "",
+    preptime: "15 minutes",
+    cooktime: "10 Minutes",
+    difficulty: "Moderate",
+    displayimg: abacha,
+    notess: "",
+    mealinfo:
+      "Abacha and Ugba is a local food predominantly consumed in the South-eastern part of Nigeria. The name Abacha is thought to have originated from Igbo’s ideology that salad contains lots of vegetables without thorough cooking.  It is an excellent source of carbohydrates, vitamins, minerals, and dietary fibre. Abacha is made from dried and shredded cassava which makes it an indispensable staple important for the livelihood of a substantial percentage of farmers, processors, and other key players within the cassava value chain. Ugba, on the other hand, is made from fermented African oil bean seed. Depending on an individual’s preference for taste, there are many variations regarding the preparation of this salad. However, it is mostly consumed as a snack or a main course meal. African salad also serves as a special delicacy during traditional festivals.",
+    maindish: {
+      name: "",
+      ingredients: [
+        "4 cups of Abacha",
+        "1.5 – 2 cups ugba rinsed in warm water",
+        "1 cup of Palm Oil and 1 Bullion Cube",
+        "1 teaspoon of edible potash",
+        "1 whole fresh fish and 1 chopped red onion",
+        "2 – 3 medium stockfish",
+        "1- 2 scotch bonnet pepper",
+        "4 – 6 garden egg leaves",
+        "6 – 8 utazi /otazi leaves (Gongronema latifolium)",
+        "2 tablespoons of crayfish powder",
+        "5 calabash nutmeg seeds",
+        "1/2 tsp ogiri",
+        "",
+      ],
+    },
+
+    sauce: {
+      name: "",
+      ingredients: [""],
+    },
+    otherRecipes: [
+      {
+        title: "Snail meat Stew",
+        author: "Andreas Paula",
+        image: snail,
+      },
+      {
+        title: "Pepper Soup",
+        author: "Selena Gomez",
+        image: goat,
+      },
+      {
+        title: "Beans Cake: Moi Moi",
+        author: "Living Tombstone",
+        image: moimoi,
+      },
+    ],
+
+    directionsstep: "",
+
+    directioninstructions: [
+      "Begin by washing the fresh fish well",
+      "dry the fresh fish with paper towels. ",
+      "Place it in a dish and mix it with salt, curry and a crumbled bullion cube.",
+      "Let it rest for at least 30 minutes in a cool place.",
+      "Once marinated, grill the fish for about 45 minutes on high heat until well done.",
+      "Soak the Abacha in cold water for about 10 minutes ",
+      "leave to drain in a colander",
+      "Boil the stockfish in a pot of water with salt and seasoning till soft.",
+      "Dissolve the potash in 1 cup of water.",
+      "In a food processor, blend the ground Ehuru, the scotch bonnet pepper, the crayfish and 1/2 an onion together into a paste.",
+      "Roast the calabash nutmeg lightly in a pan. ",
+      "Then grind the calabash nutmeg with a mortar and pestle or using a spice grinder.",
+      "Heat up the palm oil in a saucepan.",
+      "Then start adding the diluted potash mixture little by little as you stir. ",
+      "You should notice the mixture turning yellow and thickening as it cooks. ",
+      "Don't add the residue at the bottom of the potash bowl.",
+      "Next, take off the heat.",
+      "Stir in the pureed pepper mix, the ground calabash nutmeg, the shredded stockfish, onion, the Ogiri and the Ugba.",
+      "Stir everything well in a bowl in that order.",
+      "Finally, add the Abacha and sliced garden egg leaves.",
+      "Combine and serve.",
+      "You can at this point also mix in your chopped Utazi leaves, if you wish. Or you can use them as a garnish. ",
+      "Be careful not to add too much Utazi, though; it’s quite bitter and will affect the taste of your Abacha if added in excess.",
+    ],
+
+    ssauce: {
+      name: "",
+      ingredients: [""],
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
+    fish: {
+      name: "",
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
+  },
+  {
+    id: 25,
+    header: "Chin Chin",
+    userimg: penelope,
+    username: "Penelope Evans",
+    date: "17th Oct,2023",
+    prepimg: "",
+    preptime: "15 minutes",
+    cooktime: "45 Minutes",
+    difficulty: "Easy",
+    displayimg: chinchin,
+    notess: "",
+    mealinfo:
+      "Originally served as a symbol of sophistication at high society gatherings in Lagos, chin-chin swiftly transcended its elitist origins, becoming an accessible delight for people across all social classes. Street vendors in Lagos capitalized on its popularity, frying up batches of this delectable snack to cater to locals, workers, and schoolchildren. As the popularity of chin-chin transcended economic boundaries, diverse regional variations emerged. The Hausa iteration, for example, incorporates a sweet coating of honey, while Ghanaians infuse their recipe with spices like ginger and nutmeg. The evolution of chin-chin did not stop at national borders; it journeyed beyond Africa to Europe, Asia, and the Americas through the diaspora. Nigerians and Ghanaians, venturing abroad, carried with them the cherished recipes, offering a taste of home to their families. In the United Kingdom, chin-chin found a place as a staple snack for afternoon tea. Also, It became a staple gift at gatherings, births, weddings, and holidays - lovingly shared to evoke nostalgia..",
+    maindish: {
+      name: "",
+      ingredients: [
+        "3 cups flour (375 grams)",
+        "1/2 teaspoon baking powder",
+        "Pinch of nutmeg",
+        "1/2 cup sugar (100 grams)",
+        "1 whole fresh fish and 1 chopped red onion",
+        "1/2 cup baking margarine  (115 grams)",
+        "1/2 to 2/3 cup liquid milk or water",
+        "1 egg (optional. use if you want soft chinchin)",
+        "Oil for frying",
+        "",
+      ],
+    },
+
+    sauce: {
+      name: "",
+      ingredients: [""],
+    },
+    otherRecipes: [
+      {
+        title: "Snail meat Stew",
+        author: "Andreas Paula",
+        image: snail,
+      },
+      {
+        title: "Pepper Soup",
+        author: "Selena Gomez",
+        image: goat,
+      },
+      {
+        title: "Beans Cake: Moi Moi",
+        author: "Living Tombstone",
+        image: moimoi,
+      },
+    ],
+
+    directionsstep: "",
+
+    directioninstructions: [
+      "Combine flour, baking powder and sugar in a bowl.",
+      "Slice in margarine  and mix until well incorporated. ",
+      "It should look like breadcrumbs.",
+      "Crack in egg. ",
+      "Mix in a bowl.",
+      "Gently add water into flour mix ",
+      "Add water until you have a slightly stretchy but not sticky dough. ",
+      "Do not add too much water at once, do it slowly.",
+      "Roll out the dough on a flat surface, using a rolling pin. ",
+      "Cut into your desired shapes.",
+      "Set the oil on medium heat. ",
+      "Wait until the oil is hot.",
+      "Fry the shaped dough a batch at a time until golden brown",
+      "Enjoy!",
+    ],
+
+    ssauce: {
+      name: "",
+      ingredients: [""],
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
+    fish: {
+      name: "",
+      directions: [
+        {
+          instructions: [""],
+        },
+      ],
+    },
   },
 ];
 

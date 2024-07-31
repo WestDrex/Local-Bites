@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import "../Components/places.css";
 import placesData from "../placesdata";
+import heart from "../assets/Images/heart.png";
+import unheart from "../assets/Images/unheart.png";
 
 const PlacesSection = () => {
-  const [favorites, setFavorites] = useState([]);
+  const [isFavorites, setIsFavorites] = useState(false);
 
   const toggleFavorite = (id) => {
-    setFavorites((prevFavorites) =>
-      prevFavorites.includes(id)
-        ? prevFavorites.filter((favId) => favId !== id)
-        : [...prevFavorites, id]
-    );
+    setIsFavorites((prevFavorites) => ({
+      ...prevFavorites,
+      [id]: !prevFavorites[id],
+    }));
   };
 
   return (
@@ -36,12 +37,12 @@ const PlacesSection = () => {
               </div>
               <button className="places-discover-button">Discover</button>
             </div>
-            <button
-              className="places-favorite-button"
+            <img
+              src={isFavorites[place.id] ? heart : unheart}
+              alt="fav-icon"
+              className="favourite-icon"
               onClick={() => toggleFavorite(place.id)}
-            >
-              {favorites.includes(place.id) ? "❤️" : "🤍"}
-            </button>
+            />
           </div>
         ))}
       </div>

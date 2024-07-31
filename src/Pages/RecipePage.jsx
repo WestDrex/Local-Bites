@@ -5,6 +5,7 @@ import RecipePageHero from "./RecipePageComponents/RecipePageHero";
 // import { Routes, Route } from "react-router-dom";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import FoodDetailPage from "./RecipeDetailsComponents/FoodDetailsPage";
+import RecipeDetailsNav from "./RecipeDetailsComponents/recipedetailsnav";
 
 // import RecipePageFoodlist from "./RecipePageComponents/RecipePageFoodlist";
 import RecipePageShare from "./RecipePageComponents/RecipePageShare";
@@ -15,7 +16,7 @@ import "../Styles/RecipePage.css";
 export default function RecipesPage() {
   return (
     <div>
-      <Navbar />
+      <RecipeDetailsNav />
       <RecipePageHero />
       <FoodlistNav />
       <MultipleFoodlists />
