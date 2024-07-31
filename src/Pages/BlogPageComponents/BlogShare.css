@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foodShare {
+    width: 100%;
+    max-width: 1519px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 80px 110px 80px;
+}
+.shareContainer {
+    position: relative;
+    border-radius: 50px;
+    background-color: #FF640B;
+}
+.midText {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom: 90px;
+}
+.midText h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.midText p {
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.midText button {
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.vegRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.vegLeft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

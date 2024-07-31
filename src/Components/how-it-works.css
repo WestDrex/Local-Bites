@@ -5,6 +5,8 @@
     max-width: 1519px;
     width: 100%;
     padding-bottom: 180px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .howItWorks-top h1{
     color: black;

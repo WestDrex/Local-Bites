@@ -30,39 +30,39 @@ export default function HowItWorks() {
                 <div className="recipe">
                     <img className="no-1" src={chicken} alt="chicken" />
                     <h2>Recipe</h2>
-                    <p>Check out our Recipe page to<br/> 
-                        unlock your inner chef and turn<br/> 
-                        your own home into a restaurant.<br/>
+                    <p>Check out our Recipe page to <br/> 
+                        unlock your inner chef and turn <br/> 
+                        your own home into a restaurant. <br/>
                         <br/> 
                         Filled with different recipes 
-                        for you<br/>to try and historical 
-                        places to<br/>discover their unique 
-                        dishes</p>
+                        for you <br/>to try and historical 
+                        places to <br/>discover their unique 
+                        dishes </p>
                 </div>
 
                 <div className="order">
                     <img className="no-2" src={form} alt="order" />
                     <h2>Order</h2>
-                    <p>Check out our Order page, to tired<br/>or 
-                        lack the ingredients needed to<br/>make 
-                        the dish you want? Order it<br/>online 
-                        from the in the order page.<br/>
+                    <p>Check out our Order page, to tired <br/>or 
+                        lack the ingredients needed to <br/>make 
+                        the dish you want? Order it <br/>online 
+                        from the in the order page. <br/>
                         <br/>
-                        Filled with different places and<br/>giving 
-                        you the fastest route to your<br/>location, 
-                        to enjoy your favourite meal.</p>
+                        Filled with different places and <br/>giving 
+                        you the fastest route to your <br/>location, 
+                        to enjoy your favourite meal. </p>
                 </div>
 
                 <div className="blog">
                     <img className="no-3" src={blog} alt="blog" />
                     <h2>Blog</h2>
-                    <p>Check out our Blog page to<br/>discover all the 
+                    <p>Check out our Blog page to <br/>discover all the 
                         latest food news.<br/>from the best places to 
-                        eat to<br/>where to find the cheapest<br/>ingredients 
-                        for your next dish.<br/>
+                        eat to <br/>where to find the cheapest <br/>ingredients 
+                        for your next dish. <br/>
                         <br/>
-                        Filled with different news that will<br/>surely be 
-                        useful for your food<br/>journey.</p>
+                        Filled with different news that will <br/>surely be 
+                        useful for your food <br/>journey.</p>
                 </div>
             </div>
 
