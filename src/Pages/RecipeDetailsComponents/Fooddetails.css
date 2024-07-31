@@ -200,17 +200,20 @@ h4 {
 .directions ol {
   padding-left: 20px;
   line-height: 230%;
+  list-style-type: none;
+  list-style: none;
 }
 .directions ol li {
   margin-top: 20px;
   margin-bottom: 20px;
+  list-style-type: circle;
 }
 .note {
   font-style: italic;
   color: black;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding: 10px;
-  border-left: 3px solid orange;
+  /* border-left: 3px solid orange; */
   margin-top: 40px;
   font-size: 16px;
 }
@@ -304,4 +307,14 @@ h4 {
   width: 60%;
   height: 1px;
   background-color: #ff640b;
+}
+.direction-item {
+  border-bottom: 1px solid #ff640b;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  /* width: 50%; */
+  width: auto;
+}
+.direction-item:last-child {
+  border-bottom: none;
 }

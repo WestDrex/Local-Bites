@@ -50,6 +50,7 @@ export default function App() {
         }
       />
       {/* <p>remove above later</p> */}
+
       <Route path="/fooddetailspage/:id" element={<FoodDetailPage />} />
       <Route path="/signup" element={<SignUp />} />
     </Routes>
