@@ -56,3 +56,10 @@
     color: #FF640B;
     font-weight: 400;
 }
+
+@media screen and (max-width: 640px) {
+    .latestArticlesContainer {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}

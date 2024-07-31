@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.foodShare {
+.friendShare {
     width: 100%;
     max-width: 1519px;
     margin-left: auto;
@@ -53,4 +53,13 @@
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .friendShare {
+        padding: 5px;
+    }
+    .vegLeft, .vegRight{
+        display: none;
+    }
 }
