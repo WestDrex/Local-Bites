@@ -66,13 +66,35 @@ button {
   color: white;
   text-decoration: none;
 }
-
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+.hamburger div {
+  width: 50px;
+  height: 5px;
+  background: #fff;
+  margin: 4px 0;
+}
 @media screen and (max-width: 640px) {
-  .navbar {
+  .navbar, .nav-button {
       display: none;
+  }
+  .navbar {
+    gap: 21px;
   }
   .nav-button {
     margin-left: auto;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav-active {
+      display: flex;
   }
 }
 

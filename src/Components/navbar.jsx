@@ -9,29 +9,40 @@ export default function Navbar() {
   const location = useLocation();
   const isRecipePage = location.pathname.includes("/recipe");
 
+  function toggleMenu() {
+    const nav = document.querySelector('nav ul');
+    nav.classList.toggle('nav-active');
+  }
+
   const linkStyle = isRecipePage ? { color: "black" } : { color: "white" };
   return (
     <nav className="navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
+      <div className="hamburger" onClick={toggleMenu}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
       <ul className="navbar">
         <li>
-          <Link to="/" style={linkStyle} class="active">
+          <Link to="/" style={linkStyle} className="active">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/recipe" style={linkStyle} class="active">
+          <Link to="/recipe" style={linkStyle} className="active">
             Recipe
           </Link>
         </li>
         <li>
-          <Link to="/order" style={linkStyle} class="active">
+          <Link to="/order" style={linkStyle} className="active">
             Order
           </Link>
         </li>
         <li>
-          <Link to="/blog" style={linkStyle} class="active">
+          <Link to="/blog" style={linkStyle} className="active">
             Blog
           </Link>
         </li>
