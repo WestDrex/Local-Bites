@@ -5,7 +5,7 @@ import "../RecipePageComponents/RecipePageShare.css";
 
 export default function RecipePageShare() {
     return (
-        <div className="foodShare">
+        <div className="friendShare">
             <div className="shareContainer">
                 <div className="midText">
                     <h1>Help a friend!<br/>Share a 

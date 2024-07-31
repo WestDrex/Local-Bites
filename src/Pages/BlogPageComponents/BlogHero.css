@@ -46,3 +46,17 @@
     width: 155px;
     margin-right: 3px;
 }
+
+@media screen and (max-width: 640px) {
+    .BlogHeroConatiner {
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 60px;
+    }
+    .BlogHeroContent h1 {
+        text-align: center;
+    }
+    .blogSearch {
+        display: none;
+    }
+}

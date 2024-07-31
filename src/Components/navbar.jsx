@@ -46,6 +46,19 @@ export default function Navbar() {
             Blog
           </Link>
         </li>
+
+        <div className="mob-buttons">
+        <li>
+          <Link to="/login" style={linkStyle} className="active">
+            Log In
+          </Link>
+        </li>
+        <li>
+          <Link to="/signup" style={linkStyle} className="active">
+            Cart
+          </Link>
+        </li>
+        </div>
       </ul>
 
       <div className="nav-button">

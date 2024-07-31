@@ -8,7 +8,7 @@ export default function BlogShare() {
         <div className="foodShare">
             <div className="shareContainer">
                 <div className="midText">
-                    <h1>Information isn’t yours alone!<br/>
+                    <h1>Information isn’t yours alone! <br/>
                     Share a valuable tips about dishes and places!</h1>
                     <p>Sign into our website to be able to access our 
                         blog allowing you<br/>share and recieve 

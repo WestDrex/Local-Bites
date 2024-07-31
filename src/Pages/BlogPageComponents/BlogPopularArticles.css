@@ -34,6 +34,9 @@
     font-weight: 600;
     padding-bottom: 16px;
 }
+.leftArticle img {
+    width: 100%;
+}
 .puffDescription {
     color: rgba(0, 0, 0, 0.600);
     font-size: 16px;
@@ -94,5 +97,22 @@
     }
     .popularArticlesSection h3 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .popularArticlesSection {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .leftArticle {
+        width: 100%;
+    }
+    .rightArticle {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .rightArticleCard {
+        flex-direction: column;
     }
 }

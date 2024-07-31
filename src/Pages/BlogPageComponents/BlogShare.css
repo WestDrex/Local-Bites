@@ -54,3 +54,10 @@
     left: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 640px) {
+    .foodShare {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
