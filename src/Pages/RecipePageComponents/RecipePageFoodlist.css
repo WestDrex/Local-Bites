@@ -1,8 +1,10 @@
 .foodlist-container {
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 100%;
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .foodlist-cards {
   display: flex;

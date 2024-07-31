@@ -16,7 +16,7 @@ const RecipePageFoodlist = ({ title, category }) => {
 
   return (
     <div className="foodlist-container">
-      <h1 className="foodlist-title">{title}</h1>
+      <h1 className={"foodlist-title"}>{title}</h1>
       <div className="foodlist-cards">
         <Swiper
           modules={[Navigation]}
