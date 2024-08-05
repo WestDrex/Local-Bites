@@ -1,5 +1,6 @@
 import userimgs from "../../assets/Images/userimg.png";
 import boledisplay from "../../assets/Images/bole display.png";
+import catfish from "../../assets/Images/catfishpeppersoup.png";
 import jollof from "../../assets/Images/image 26.png";
 import snail from "../../assets/Images/snail meat.png";
 import goat from "../../assets/Images/goatmeatsoup.png";
@@ -21,6 +22,7 @@ const FooddetailsData = [
     difficulty: "Moderate",
     displayimg: boledisplay,
     notesdisplay: "Note:",
+    link: "https://youtu.be/NQIoVetnDYI?si=Gl2U0aEBDQ6vfX4N",
     note: "When using an oven, place the peeled plantains on the grill rack and place the rack as close to the grill as possible.The heat should be between 150°C and 200°Cas the plantains need to be roasted slowly. For ripe plantains, you can start off with 170°C and when you see the plantains browning, you can increase to 200°C. For unripe plantains which need to be roasted at even lower temperatures, start with about 150°C. Check from time to time and turn the plantains on all sides to make sure they cook evenly.",
     mealinfo:
       "Bole is a roasted plantain snack or meal in Nigeria. It is native to the Yoruba people of Nigeria but also eaten by Rivers people due to acculturation. It is referred to as 'boli' by the Yoruba people and is eaten with groundnuts. The Yorubas have been enjoying this delicacy for ages, it can be consumed as a snack or main meal which can be accompanied with pepper sauce filled with meat, roasted fish or fried chicken especially during the festive period. The word 'boli' is being pronounced as 'bole' due to a difference in accent in the south-south region in Nigeria and is eaten with roasted fish. Bole went from being eaten at Festivals to becoming a very popular street food. Originally it was roasted half ripped plantain and hot spicy sauce (made from palm oil, pepper and utazi leaves), however roasted potatoes and yam is now part of the dish. Aside from being a popular dish in Yorubaland, and Port Harcourt and environs, It is slowly becoming a staple food at homes of Rivers State people.",
@@ -127,13 +129,13 @@ const FooddetailsData = [
     prepimg: "",
     preptime: "30 minutes",
     cooktime: "1 Hour 30 Minutes",
+    link: "https://youtu.be/z4tNAyRdo70?si=xSwCjPAfuN_8Hf3O",
     difficulty: "Hard",
     displayimg: jollof,
     notess: "",
     mealinfo:
       "Historians believe the dish originated in Senegal and Gambia during colonial rule in West Africa between 1860 and 1940. It's said that French colonizers brought broken rice from Indochina to replace current food crops in the region. Gradually, broken rice became more popular than whole rice grains, which led to the creation of jollof rice. And since it's thought the African rice was originally made by the Wolof people, a large ethnic group in Senegal and parts of the Gambia and Southern Mauritania, historians say the word 'jollof' is based on the group's name. The reason why this fare is commonplace at African events is because it's a cultural symbol of national pride, history and unity. Jollof rice is a celebratory food served at birthdays, graduations, baby naming ceremonies and much more. 'Nigerians even have a specific type of jollof rice we cook for big parties and weddings. It's called 'Party Jollof.' It's very rich in flavor and has a smokey and semi-burnt taste. If you don't have party jollof rice at your birthday party or wedding, then we question if you're really having a Nigerian event in the first place.",
     maindish: {
-      name: "",
       ingredients: [
         "1/3 cup oil (vegetable, canola, coconut. not olive oil!)",
         "6 chopped medium sized Roma tomatoes (or 400g of tomatoes)",
@@ -151,7 +153,6 @@ const FooddetailsData = [
       ],
     },
 
-    sauce: {},
     otherRecipes: [
       {
         title: "Snail meat Stew",
@@ -169,8 +170,6 @@ const FooddetailsData = [
         image: moimoi,
       },
     ],
-
-    directionsstep: "",
 
     directioninstructions: [
       "In a food processor, add the Roma tomatoes, red poblano peppers, chopped onion and Scotch bonnets with 2 cups of stock.",
@@ -209,24 +208,6 @@ const FooddetailsData = [
       "Keep in mind that if you’re using parboiled rice, once the water evaporates completely, the rice is ready. ",
       "There is no need to add water as this can also make it clump together.",
     ],
-
-    ssauce: {
-      name: "",
-      ingredients: [""],
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
-    fish: {
-      name: "",
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
   },
 
   {
@@ -239,12 +220,13 @@ const FooddetailsData = [
     preptime: "20 minutes",
     cooktime: "35 minutes",
     difficulty: "Easy",
-    displayimg: boledisplay,
+    link: "https://youtu.be/qSvoUSyyx5k?si=b5rK9gBKzPFwbHse",
+    displayimg: catfish,
     notes: "",
     mealinfo:
       "Catfish pepper soup is another variation of Nigerian pepper soup. This pepper soup packed full of flavour from the natural ingredients used. It is cooked with some yam and plantain, it is so comforting and utterly delicious. It is extremely easy and quick to make, a simple Nigerian side dish that is perfect for all weather. Pepper soup is a soup from Nigeria, made using various meats or fishes, chili peppers, scent leaves and calabash nutmeg as the primary ingredients. It is a spicy soup that has a light, watery texture. Despite its name, the soup is not necessarily defined by a pepper-forward flavour profile, that is, the flavours are much more complex, with nutty, bitter, woodsy, and floral notes, as well as warmth. It is considered to be a delicacy by some people in Western Africa, and some West Africans believe that the soup has some basic medicinal qualities.",
     maindish: {
-      name: "",
+      // name: "",
       ingredients: [
         "1 kg fresh or frozen Catfish",
         "2 teaspoons of Delta Pepper Soup Spice",
@@ -260,10 +242,10 @@ const FooddetailsData = [
         "",
       ],
     },
-    sauce: {
-      name: "",
-      ingredients: [""],
-    },
+    // sauce: {
+    //   name: "",
+    //   ingredients: [""],
+    // },
 
     otherRecipes: [
       {
@@ -283,7 +265,7 @@ const FooddetailsData = [
       },
     ],
 
-    directionsstep: "",
+    // directionsstep: "",
 
     directioninstructions: [
       "Cut the fresh catfish into cylindrical pieces.",
@@ -304,25 +286,24 @@ const FooddetailsData = [
       "Ensure not to stir the soup with a spoon or ladle, so as not to break the fish up.  ",
       "If necessary shake the pot gently from side to side. ",
       "Turn heat off and serve hot or warm. ",
-      "",
     ],
-    ssauce: {
-      name: "",
-      ingredients: [""],
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
-    fish: {
-      name: "",
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
+    // ssauce: {
+    //   name: "",
+    //   ingredients: [""],
+    //   directions: [
+    //     {
+    //       instructions: [""],
+    //     },
+    //   ],
+    // },
+    // fish: {
+    //   name: "",
+    //   directions: [
+    //     {
+    //       instructions: [""],
+    //     },
+    //   ],
+    // },
   },
   {
     id: 12,
@@ -334,6 +315,7 @@ const FooddetailsData = [
     preptime: "15 minutes",
     cooktime: "10 Minutes",
     difficulty: "Moderate",
+    link: "https://youtu.be/0bojPYzHvY8?si=4kjZ54GxLFrot2IJ",
     displayimg: abacha,
     notess: "",
     mealinfo:
@@ -357,10 +339,6 @@ const FooddetailsData = [
       ],
     },
 
-    sauce: {
-      name: "",
-      ingredients: [""],
-    },
     otherRecipes: [
       {
         title: "Snail meat Stew",
@@ -378,8 +356,6 @@ const FooddetailsData = [
         image: moimoi,
       },
     ],
-
-    directionsstep: "",
 
     directioninstructions: [
       "Begin by washing the fresh fish well",
@@ -406,24 +382,6 @@ const FooddetailsData = [
       "You can at this point also mix in your chopped Utazi leaves, if you wish. Or you can use them as a garnish. ",
       "Be careful not to add too much Utazi, though; it’s quite bitter and will affect the taste of your Abacha if added in excess.",
     ],
-
-    ssauce: {
-      name: "",
-      ingredients: [""],
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
-    fish: {
-      name: "",
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
   },
   {
     id: 25,
@@ -435,6 +393,7 @@ const FooddetailsData = [
     preptime: "15 minutes",
     cooktime: "45 Minutes",
     difficulty: "Easy",
+    link: "https://youtu.be/qVK-uM9Tn4c?si=NNnqBYplaW9kxQ1z",
     displayimg: chinchin,
     notess: "",
     mealinfo:
@@ -455,10 +414,6 @@ const FooddetailsData = [
       ],
     },
 
-    sauce: {
-      name: "",
-      ingredients: [""],
-    },
     otherRecipes: [
       {
         title: "Snail meat Stew",
@@ -477,8 +432,6 @@ const FooddetailsData = [
       },
     ],
 
-    directionsstep: "",
-
     directioninstructions: [
       "Combine flour, baking powder and sugar in a bowl.",
       "Slice in margarine  and mix until well incorporated. ",
@@ -495,24 +448,6 @@ const FooddetailsData = [
       "Fry the shaped dough a batch at a time until golden brown",
       "Enjoy!",
     ],
-
-    ssauce: {
-      name: "",
-      ingredients: [""],
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
-    fish: {
-      name: "",
-      directions: [
-        {
-          instructions: [""],
-        },
-      ],
-    },
   },
 ];
 

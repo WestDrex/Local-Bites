@@ -18,10 +18,6 @@ export default function BlogPage() {
 
       <BlogPopularArticles />
       <BlogLatestArticles />
-      <InfoBanner />
-
-      <BlogPopularArticles />
-      <BlogLatestArticles />
       <BlogTurn />
       <BlogShare />
       <HomeFooter />
