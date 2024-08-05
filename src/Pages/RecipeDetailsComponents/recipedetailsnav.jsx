@@ -6,28 +6,39 @@ import cart from "../../assets/Images/cart.png";
 import "../../Pages/RecipeDetailsComponents/recipedetailsnav.css";
 
 export default function RecipeDetailsNav() {
+  function toggleMenu() {
+    const nav = document.querySelector("nav ul");
+    nav.classList.toggle("nav-active");
+  }
+
   return (
     <nav className="recipe-navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
+      <div className="hamburger" onClick={toggleMenu}>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
       <ul className="recipe-navbar">
         <li>
-          <Link to="/" class="active">
+          <Link to="/" className="active">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/recipe" class="active">
+          <Link to="/recipe" className="active">
             Recipe
           </Link>
         </li>
         <li>
-          <Link to="/order" class="active">
+          <Link to="/order" className="active">
             Order
           </Link>
         </li>
         <li>
-          <Link to="/blog" class="active">
+          <Link to="/blog" className="active">
             Blog
           </Link>
         </li>

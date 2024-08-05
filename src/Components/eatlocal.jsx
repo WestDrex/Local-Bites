@@ -1,6 +1,7 @@
 import React from "react";
 import "../Components/eatlocal.css";
 import eatLocalData from "./eatlocaldata";
+import { Link } from "react-router-dom";
 
 const DishesSection = () => {
   return (
@@ -25,13 +26,16 @@ const DishesSection = () => {
               <div className="dishes-card-content">
                 <h4>{dish.name}</h4>
                 <p>
-                  {dish.description} <a href="#">Read More...</a>
+                  {dish.description}{" "}
+                  <Link to={`/fooddetailspage/${dish.id}`}>Read More...</Link>
                 </p>
                 <div className="rating">
                   {"★".repeat(dish.rating)}
                   {"☆".repeat(5 - dish.rating)}
                 </div>
-                <button className="content-add-button">+</button>
+                <Link to={`/fooddetailspage/${dish.id}`}>
+                  <button className="content-add-button">+</button>
+                </Link>
               </div>
             </div>
           ))}

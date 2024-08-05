@@ -148,3 +148,132 @@
   /* font-weight: bold; */
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .foodlist-title {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .foodlist-main-card {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .foodlist-dish-image {
+    height: 180px;
+  }
+
+  .foodlist-card-content {
+    padding: 10px 5px;
+  }
+
+  .foodlist-card-content h4 {
+    font-size: 16px;
+  }
+
+  .foodlist-card-content p {
+    font-size: 12px;
+  }
+
+  .foodlist-rating {
+    font-size: 20px;
+  }
+
+  .foodlist-content-add-button {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+  }
+
+  .foodlist-read-more {
+    font-size: 10px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .foodlist-title {
+    font-size: 28px;
+    padding-left: 40px;
+  }
+
+  .foodlist-main-card {
+    max-width: 48%;
+    height: auto;
+  }
+
+  .foodlist-dish-image {
+    height: 200px;
+  }
+
+  .foodlist-card-content {
+    padding: 10px 10px;
+  }
+
+  .foodlist-card-content h4 {
+    font-size: 18px;
+  }
+
+  .foodlist-card-content p {
+    font-size: 14px;
+  }
+
+  .foodlist-rating {
+    font-size: 22px;
+  }
+
+  .foodlist-content-add-button {
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+  }
+
+  .foodlist-read-more {
+    font-size: 11px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1025px) {
+  .foodlist-title {
+    font-size: 32px;
+    padding-left: 59px;
+  }
+
+  .foodlist-main-card {
+    max-width: 260px;
+    height: 305px;
+  }
+
+  .foodlist-dish-image {
+    height: 220px;
+  }
+
+  .foodlist-card-content {
+    padding: 10px;
+  }
+
+  .foodlist-card-content h4 {
+    font-size: 18px;
+  }
+
+  .foodlist-card-content p {
+    font-size: 14px;
+  }
+
+  .foodlist-rating {
+    font-size: 25px;
+  }
+
+  .foodlist-content-add-button {
+    width: 51px;
+    height: 51px;
+    font-size: 40px;
+  }
+
+  .foodlist-read-more {
+    font-size: 12px;
+  }
+}

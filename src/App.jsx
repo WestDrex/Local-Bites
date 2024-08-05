@@ -36,6 +36,7 @@ export default function App() {
           </>
         }
       />
+      <Route path="/" element={<HomePage />} />
       <Route path="/recipe" element={<RecipesPage />} />
       <Route path="/order" element={<OrderPage />} />
       <Route path="/blog" element={<BlogPage />} />

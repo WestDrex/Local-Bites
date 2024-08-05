@@ -147,20 +147,21 @@
 
 .content-add-button {
   position: absolute;
-  bottom: 2px;
-  right: 2px;
+  bottom: -2px;
+  right: -4px;
   /* width: 56px;
   height: 56px; */
-  width: 40px;
-  height: 40px;
+  width: 51px;
+  height: 51px;
   border: none;
   /* border-radius: 50%; */
   border-top-left-radius: 10px;
   border-bottom-left-radius: none;
-  background-color: orange;
+  background-color: #ff640b;
 
   color: white;
-  font-size: 34px;
+  /* font-size: 34px; */
+  font-size: 46px;
   line-height: 30px;
   cursor: pointer;
 }
