@@ -1,111 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.signUpContainer {
-  width: 100%;
-  max-width: 1519px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-.signLeft {
-  padding: 80px 218px 29px 138px;
-  background-color: black;
-  /* background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)); */
-}
-.img-container {
-  display: flex;
-  width: 443px;
-  justify-content: center;
-  align-items: center;
-  gap: 7px;
-  padding-bottom: 24px;
-}
-.img-container h2 {
-  font-weight: 400;
-  color: white;
-}
-.topText h1 {
-  color: white;
-  text-align: center;
-  font-weight: 500;
-  font-size: 40px;
-  padding-bottom: 29px;
-}
-.topText h4 {
-  color: #c8c8c8;
-  text-align: center;
-  font-weight: 200;
-  font-size: 24px;
-  padding-bottom: 40px;
-}
-.googleButton {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  color: black;
-  padding: 20px;
-  font-size: 20px;
-  background-color: white;
-  border: 1px solid #ff640b;
-}
-.google {
-  padding-right: 20px;
-}
-.or {
-  padding-top: 7px;
-  display: flex;
-  align-items: center;
-}
-hr {
-  height: 1px;
-  width: 204px;
-  color: white;
-}
-.or p {
-  padding: 5px;
-  color: white;
-  font-size: 13px;
-}
-.signRight {
-  background-color: black;
-}
-.rightImg {
-  object-fit: cover;
-}
-.inputField {
-  width: 90%;
-  margin: 10px auto;
-  margin-top: 20px;
-  padding: 15px;
-  font-size: 18px;
-  border: 1px solid #ff640b;
-  border-radius: 5px;
-  margin-left: 20px;
-}
 .signInButton {
-  width: 90%;
-  margin: 20px auto;
   margin-top: 32px;
-  padding: 15px;
-  font-size: 20px;
-  background-color: #ff640b;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
 }
 .logInText {
-  color: white;
-  text-align: center;
-  margin-top: 20px;
   padding-top: 56px;
-}
-.logInText a {
-  color: #ff640b;
-  text-decoration: none;
 }
 .textUnderPassword {
   display: flex;
@@ -126,4 +23,10 @@ label {
 }
 .linkstyles {
   text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+  .rightImg {
+    
+  }
 }
