@@ -1,0 +1,121 @@
+.info-banner {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination-btn {
+  background-color: white;
+  border: 1px solid #ff5e00;
+  color: #ff5e00;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  margin-right: 32px;
+  margin-bottom: 130px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.pagination-btn:hover {
+  background-color: #ff5e00;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+.pagination-more {
+  line-height: 40px;
+  padding-left: 10px;
+  background-color: white;
+  border: 1px solid #ff5e00;
+  color: #ff5e00;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  /* margin: 0 5px; */
+  /* margin-right: 32px; */
+  /* margin-bottom: 174px; */
+  cursor: pointer;
+  font-size: 36px;
+  font-family: Poppins, sans-serif;
+}
+
+.banner-content {
+  background-color: #ff5e00;
+  width: 1280px;
+
+  height: 442px;
+  color: white;
+  padding: 20px;
+  border-radius: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+.banner-content p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 620px;
+  margin-top: 16px;
+}
+.banner-content h3 {
+  color: white;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -4%;
+  text-align: center;
+}
+
+.sign-in-btn {
+  background-color: black;
+  height: 60px;
+  width: 180px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -2%;
+}
+
+.sign-in-btn:hover {
+  background-color: #333;
+}
+.plate {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.freshsalad {
+  position: absolute;
+  bottom: 20px;
+  left: 6px;
+}

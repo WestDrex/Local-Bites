@@ -151,10 +151,7 @@ const FooddetailsData = [
       ],
     },
 
-    sauce: {
-      name: "",
-      ingredients: [""],
-    },
+    sauce: {},
     otherRecipes: [
       {
         title: "Snail meat Stew",

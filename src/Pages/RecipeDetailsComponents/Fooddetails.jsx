@@ -71,14 +71,16 @@ export default function Fooddetails() {
               </li>
             ))}
           </ul>
-          <h3>{dish.sauce.name}</h3>
-          <ul>
-            {dish.sauce.ingredients.map((ingredient, index) => (
-              <li key={index} className="direction-item">
-                {ingredient}
-              </li>
-            ))}
-          </ul>
+          {dish.sauce.name && <h3>{dish.sauce.name}</h3>}
+          {dish.sauce.ingredients && (
+            <ul>
+              {dish.sauce.ingredients.map((ingredient, index) => (
+                <li key={index} className="direction-item">
+                  {ingredient}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
         <div className="details-other-recipes">
           <h2>Other Recipes</h2>
@@ -96,9 +98,12 @@ export default function Fooddetails() {
       <div className="directions">
         <h2>Directions</h2>
         <ol>
-          <li>
-            <p className="fors">{dish.directionsstep}</p>
-          </li>
+          {dish.directionsstep && (
+            <li>
+              <p className="fors">{dish.directionsstep}</p>
+            </li>
+          )}
+
           <ol>
             {dish.directioninstructions.map((step, index) => (
               <li key={index}>{step}</li>
