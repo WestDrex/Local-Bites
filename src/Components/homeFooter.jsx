@@ -2,6 +2,8 @@ import React from "react";
 import "../Components/homeFooter.css";
 import logoFooter from "../assets/Images/Group 40.png";
 import { Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "../Pages/Homepage";
 
 export default function HomeFooter() {
   return (
@@ -24,16 +26,16 @@ export default function HomeFooter() {
             <ul>
               <p className="footerHeaderText">Quick Links</p>
               <li>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="">Food</a>
+                <a href="/recipe  ">Food</a>
               </li>
               <li>
-                <a href="">Order</a>
+                <a href="/order">Order</a>
               </li>
               <li>
-                <a href="">Blog</a>
+                <a href="/blog">Blog</a>
               </li>
             </ul>
           </div>
@@ -41,13 +43,19 @@ export default function HomeFooter() {
             <ul>
               <p className="footerHeaderText">Support Us</p>
               <li>
-                <a href="">Twitter</a>
+                <a href="https://x.com" target="_blank">
+                  Twitter
+                </a>
               </li>
               <li>
-                <a href="">Instagram</a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  Instagram
+                </a>
               </li>
               <li>
-                <a href="">Facebook</a>
+                <a href="https://facebook.com" target="_blank">
+                  Facebook
+                </a>
               </li>
             </ul>
           </div>

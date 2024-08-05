@@ -2,8 +2,10 @@ import React from "react";
 import vegRight from "../../assets/Images/Photo.png";
 import vegLeft from "../../assets/Images/veggie.png";
 import "../RecipePageComponents/RecipePageShare.css";
+import { Link } from "react-router-dom";
 
 export default function RecipePageShare() {
+
     return (
         <div className="friendShare">
             <div className="shareContainer">
@@ -21,6 +23,11 @@ export default function RecipePageShare() {
             <img className="vegLeft" src={vegLeft} alt="veggies" />
             <img className="vegRight" src={vegRight} alt="salad" />
             </div>
+
         </div>
-    )
+        <img className="vegLeft" src={vegLeft} alt="veggies" />
+        <img className="vegRight" src={vegRight} alt="salad" />
+      </div>
+    </div>
+  );
 }

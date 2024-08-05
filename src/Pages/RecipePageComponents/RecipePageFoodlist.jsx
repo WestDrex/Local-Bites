@@ -14,6 +14,10 @@ import "swiper/css";
 const RecipePageFoodlist = ({ title, category }) => {
   const filteredData = RecipeListdata.filter((dish) => dish.type === category);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="foodlist-container">
       <h1 className={"foodlist-title"}>{title}</h1>
@@ -26,9 +30,25 @@ const RecipePageFoodlist = ({ title, category }) => {
           loop={true}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
           className="foodlist-swiper"
+          breakpoints={{
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 2,
+            },
+            // when window width is >= 768px
+            768: {
+              slidesPerView: 3,
+            },
+            // when window width is >= 1024px
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
         >
           {filteredData.map((dish) => (
             <SwiperSlide key={dish.id}>
