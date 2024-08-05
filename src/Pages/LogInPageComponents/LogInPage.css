@@ -24,9 +24,6 @@ label {
 .linkstyles {
   text-decoration: none;
 }
-
-@media screen and (max-width: 380px) {
-  .rightImg {
-    
-  }
+.topText h4 {
+  text-align: center;
 }

@@ -80,6 +80,7 @@
 .bottomCircle {
     position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 @media screen and (max-width: 1120px) {
