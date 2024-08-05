@@ -93,6 +93,11 @@
     text-align: center;
   }
   .leftDown {
+    flex-direction: column;
     gap: 5px;
+  }
+  .recipeHero {
+    padding-left: 6px;
+    padding-right: 6px;
   }
 }

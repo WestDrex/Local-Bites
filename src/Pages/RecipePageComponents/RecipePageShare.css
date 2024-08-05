@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-.foodShare {
-  width: 100%;
-  max-width: 1519px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 80px 80px 74px 80px;
+
+.friendShare {
+    width: 100%;
+    max-width: 1519px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 80px 74px 80px;
+
 }
 .shareContainer {
   position: relative;
@@ -51,10 +53,19 @@
   bottom: 0;
 }
 .vegLeft {
+
   position: absolute;
   left: 0;
   bottom: 0;
 }
-.log-des {
-  text-decoration: none;
+
+
+@media screen and (max-width: 640px) {
+    .friendShare {
+        padding: 5px;
+    }
+    .vegLeft, .vegRight{
+        display: none;
+    }
 }
+

@@ -70,9 +70,10 @@ button {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  padding-left: 30px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 70px;
+
 }
 .hamburger div {
   width: 50px;
@@ -80,12 +81,18 @@ button {
   background: #fff;
   margin: 4px 0;
 }
+.mob-buttons {
+  display: none;
+}
+
 @media screen and (max-width: 640px) {
   .navbar, .nav-button {
       display: none;
+      flex-direction: column;
   }
   .navbar {
     gap: 21px;
+    padding-top: 10px;
   }
   .nav-button {
     margin-left: auto;
@@ -95,6 +102,17 @@ button {
   }
   .nav-active {
       display: flex;
+      padding-top: 50px;
+  }
+  .ham-container {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mob-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
   }
 }
 
