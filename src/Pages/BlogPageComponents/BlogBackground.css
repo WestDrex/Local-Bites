@@ -1,5 +1,6 @@
 .blogbackground {
-  background-image: url(/src/assets/Images/Rectangle\ 110.png);
+  /* background-image: url(/src/assets/Images/Rectangle\ 110.png); */
+  background-image: url("../../../public/assets/Images/Rectangle\ 110.png");
 
   width: 100%;
 

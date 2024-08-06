@@ -1,6 +1,7 @@
 import React from "react";
 import "../Components/homeFooter.css";
-import logoFooter from "../assets/Images/Group 40.png";
+// import logoFooter from "../assets/Images/Group 40.png";
+import logoFooter from "../../public/assets/Images/Group 40.png";
 import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../Pages/Homepage";

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../Components/places.css";
 import placesData from "../placesdata";
-import heart from "../assets/Images/heart.png";
-import unheart from "../assets/Images/unheart.png";
+import heart from "../../public/assets/Images/heart.png";
+import unheart from "../../public/assets/Images/unheart.png";
 
 const PlacesSection = () => {
   const [isFavorites, setIsFavorites] = useState(false);

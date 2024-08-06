@@ -3,12 +3,12 @@ import "./Fooddetails.css";
 import FooddetailsData from "./FooddetailsData";
 import { useEffect, useRef } from "react";
 import { useParams } from "react-router-dom";
-import timer from "../../assets/Images/Timer2.png";
-import fire from "../../assets/Images/bi_fire.png";
-import playbtn from "../../assets/Images/playbtn.png";
-import snail from "../../assets/Images/snail meat.png";
-import peppersoup from "../../assets/Images/peppersoup.png";
-import moimoi from "../../assets/Images/moi-moi.png";
+import timer from "../../../public/assets/Images/Timer2.png";
+import fire from "../../../public/assets/Images/bi_fire.png";
+import playbtn from "../../../public/assets/Images/playbtn.png";
+// import snail from "../../assets/Images/snail meat.png";
+// import peppersoup from "../../assets/Images/peppersoup.png";
+// import moimoi from "../../assets/Images/moi-moi.png";
 import RecipePageFoodlist from "../RecipePageComponents/RecipePageFoodlist";
 import HomeFooter from "../../Components/homeFooter";
 

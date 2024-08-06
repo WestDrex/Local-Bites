@@ -1,8 +1,8 @@
 import React from "react";
 import "./infobanner.css";
-import rucola from "../../assets/Images/rucola-png.png";
-import plate from "../../assets/Images/Photo.png";
-import freshsalad from "../../assets/Images/freshsalad.png";
+import rucola from "../../../public/assets/Images/rucola-png.png";
+import plate from "../../../public/assets/Images/Photo.png";
+import freshsalad from "../../../public/assets/Images/freshsalad.png";
 
 export default function InfoBanner() {
   return (
