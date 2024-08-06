@@ -1,5 +1,6 @@
 import React from "react";
-import Search from "../../assets/Images/srchButton.png";
+import Search from "../../../public/assets/Images/srchButton.png";
+
 import "../BlogPageComponents/BlogHero.css";
 
 import { Link } from "react-router-dom";

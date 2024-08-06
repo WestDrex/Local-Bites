@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../assets/Images/logo.png";
-import user from "../assets/Images/user.png";
-import cart from "../assets/Images/cart.png";
+import logo from "../../public/assets/Images/logo.png";
+import user from "../../public/assets/Images/user.png";
+import cart from "../../public/assets/Images/cart.png";
 import "../Components/navbar.css";
 import { Link, useLocation } from "react-router-dom";
 
@@ -10,8 +10,8 @@ export default function Navbar() {
   const isRecipePage = location.pathname.includes("/recipe");
 
   function toggleMenu() {
-    const nav = document.querySelector('nav ul');
-    nav.classList.toggle('nav-active');
+    const nav = document.querySelector("nav ul");
+    nav.classList.toggle("nav-active");
   }
 
   const linkStyle = isRecipePage ? { color: "black" } : { color: "white" };
@@ -48,16 +48,16 @@ export default function Navbar() {
         </li>
 
         <div className="mob-buttons">
-        <li>
-          <Link to="/login" style={linkStyle} className="active">
-            Log In
-          </Link>
-        </li>
-        <li>
-          <Link to="/signup" style={linkStyle} className="active">
-            Cart
-          </Link>
-        </li>
+          <li>
+            <Link to="/login" style={linkStyle} className="active">
+              Log In
+            </Link>
+          </li>
+          <li>
+            <Link to="/signup" style={linkStyle} className="active">
+              Cart
+            </Link>
+          </li>
         </div>
       </ul>
 

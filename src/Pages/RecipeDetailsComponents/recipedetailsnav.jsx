@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../../assets/Images/logo.png";
-import blackuser from "../../assets/Images/blackuser.png";
-import cart from "../../assets/Images/cart.png";
+import logo from "../../../public/assets/Images/logo.png";
+import blackuser from "../../../public/assets/Images/blackuser.png";
+import cart from "../../../public/assets/Images/cart.png";
 import "../../Pages/RecipeDetailsComponents/recipedetailsnav.css";
 
 export default function RecipeDetailsNav() {
