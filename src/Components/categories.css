@@ -4,7 +4,7 @@
   margin-top: 60px;
   margin-bottom: 80px;
   /* background-image: url("../assets/Images/squigly.png"); */
-  background-image: url("../../public/assets/Images/squigly.png");
+  background-image: url("../../public/Images/squigly.png");
 }
 .categories-container h1 {
   font-family: Poppins, sans-serif;

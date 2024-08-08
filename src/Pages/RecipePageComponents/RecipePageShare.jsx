@@ -1,6 +1,6 @@
 import React from "react";
-import vegRight from "../../../public/assets/Images/Photo.png";
-import vegLeft from "../../../public/assets/Images/veggie.png";
+import vegRight from "../../../public/Images/Photo.png";
+import vegLeft from "../../../public/Images/veggie.png";
 import "../RecipePageComponents/RecipePageShare.css";
 import { Link } from "react-router-dom";
 

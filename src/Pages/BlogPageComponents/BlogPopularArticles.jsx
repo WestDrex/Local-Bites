@@ -1,8 +1,9 @@
 import React from "react";
-import PuffPuff from "../../../public/assets/Images/Rectangle 112.png";
-import Solid from "../../../public/assets/Images/Rectangle 113.png";
-import JollofRice from "../../../public/assets/Images/Rectangle 114.png";
-import PepperSoup from "../../../public/assets/Images/Rectangle 115.png";
+import PuffPuff from "../../../public/Images/Rectangle 112.png";
+import Solid from "../../../public/Images/Rectangle 113.png";
+import JollofRice from "../../../public/Images/Rectangle 114.png";
+import PepperSoup from "../../../public/Images/Rectangle 115.png";
+
 import "../BlogPageComponents/BlogPopularArticles.css";
 
 import { Link } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "../../../public/assets/Images/srchButton.png";
+import Search from "../../../public/Images/srchButton.png";
 
 import "../BlogPageComponents/BlogHero.css";
 

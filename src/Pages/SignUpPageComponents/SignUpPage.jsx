@@ -1,7 +1,7 @@
 import React from "react";
-import whiteLogo from "../../../public/assets/Images/Group 21.png";
-import rightImg from "../../../public/assets/Images/Rectangle 108.png";
-import google from "../../../public/assets/Images/image 37.png";
+import whiteLogo from "../../../public/Images/Group 21.png";
+import rightImg from "../../../public/Images/Rectangle 108.png";
+import google from "../../../public/Images/image 37.png";
 import "../SignUpPageComponents/SignUp.css";
 
 import { Link } from "react-router-dom";

@@ -1,9 +1,9 @@
 import React from "react";
-import chicken from "../../public/assets/Images/turkey.png";
-import form from "../../public/assets/Images/order.png";
-import blog from "../../public/assets/Images/blog.png";
-import topCircle from "../../public/assets/Images/Vector 15.png";
-import bottomCircle from "../../public/assets/Images/Ellipse 19.png";
+import chicken from "../../public/Images/turkey.png";
+import form from "../../public/Images/order.png";
+import blog from "../../public/Images/blog.png";
+import topCircle from "../../public/Images/Vector 15.png";
+import bottomCircle from "../../public/Images/Ellipse 19.png";
 import "../Components/how-it-works.css";
 
 export default function HowItWorks() {

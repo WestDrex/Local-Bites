@@ -41,7 +41,7 @@ const DishesSection = () => {
           ))}
         </div>
       </div>
-      <a href="#" className="see-more">
+      <a href="/recipe" className="see-more">
         See More &gt;
       </a>
     </div>
