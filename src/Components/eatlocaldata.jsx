@@ -1,7 +1,8 @@
 import jollofrice from "../../public/Images/jollof.png";
 import yamporr from "../../public/Images/porridge.png";
 import suyaa from "../../public/Images/suya.png";
-import nkwobi from "../../public/Images/nkwobi.png";
+// import nkwobi from "../../public/Images/nkwobi.png";
+import nkwobi from "/src/Images/nkwobi.png";
 const eatLocalData = [
   {
     id: 1,
