@@ -5,7 +5,8 @@ const placesData = [
     // image: "../src/assets/Images/lagos.png",
     // image: "../../public/Images/Lagos.png",
     image:
-      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723111926/Lagos_z10q33.png",
+      " https://res.cloudinary.com/dyntb0gv5/image/upload/v1723111926/Lagos_z10q33.png",
+
     rating: 5,
   },
   {
@@ -13,7 +14,7 @@ const placesData = [
     name: "Abuja",
     // image: "../src/assets/Images/abuja.png",
     image:
-      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112706/abuja_pfdexq.png",
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723114675/Abuja_lryjyv.png",
     rating: 4,
   },
   {
