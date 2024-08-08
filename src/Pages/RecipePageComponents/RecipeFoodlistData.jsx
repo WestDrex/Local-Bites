@@ -137,7 +137,8 @@ const RecipeListdata = [
     description:
       "It is basically a delicious meal of cow meat prepared in spicy palm oil sauce and garnished...",
     // image: "../src/assets/Images/nkwobi.png",
-    image: "../../../public/Images/nkwobi.png",
+    // image: "../../../public/Images/nkwobi.png",
+    image: "/src/Images/nkwobi.png",
     type: "saladSides",
     rating: 5,
   },

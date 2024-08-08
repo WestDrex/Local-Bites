@@ -1,6 +1,7 @@
 import React from "react";
 import FriedRice from "../../../public/Images/Rectangle 116.png";
-import OfadaStew from "../../../public/Images/Rectangle 117.png";
+// import OfadaStew from "../../../public/Images/Rectangle 117.png";
+import OfadaStew from "/Images/Rectangle 117.png";
 import VegStew from "../../../public/Images/Rectangle 118.png";
 import Akara from "../../../public/Images/Rectangle 119.png";
 import MoiMoi from "../../../public/Images/Rectangle 120.png";
