@@ -3,7 +3,7 @@ const placesData = [
     id: 1,
     name: "Lagos",
     // image: "../src/assets/Images/lagos.png",
-    image: "../public/Images/lagos.png",
+    image: "../public/Images/Lagos.png",
     rating: 5,
   },
   {
