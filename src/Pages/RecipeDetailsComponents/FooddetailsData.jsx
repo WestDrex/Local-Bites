@@ -1,14 +1,14 @@
-import userimgs from "../../../public/assets/Images/userimg.png";
-import boledisplay from "../../../public/assets/Images/bole display.png";
-import catfish from "../../../public/assets/Images/catfishpeppersoup.png";
-import jollof from "../../../public/assets/Images/image 26.png";
-import snail from "../../../public/assets/Images/snail meat.png";
-import goat from "../../../public/assets/Images/goatmeatsoup.png";
-import moimoi from "../../../public/assets/Images/moi-moi.png";
-import abacha from "../../../public/assets/Images/african salad.png";
-import selene from "../../../public/assets/Images/kitty.png";
-import penelope from "../../../public/assets/Images/penelope.png";
-import chinchin from "../../../public/assets/Images/chin chin.png";
+import userimgs from "../../../public/Images/userimg.png";
+import boledisplay from "../../../public/Images/bole display.png";
+import catfish from "../../../public/Images/catfishpeppersoup.png";
+import jollof from "../../../public/Images/image 26.png";
+import snail from "../../../public/Images/snail meat.png";
+import goat from "../../../public/Images/goatmeatsoup.png";
+import moimoi from "../../../public/Images/moi-moi.png";
+import abacha from "../../../public/Images/african salad.png";
+import selene from "../../../public/Images/kitty.png";
+import penelope from "../../../public/Images/penelope.png";
+import chinchin from "../../../public/Images/chin chin.png";
 const FooddetailsData = [
   {
     id: 20,

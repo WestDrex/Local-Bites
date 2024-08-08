@@ -1,10 +1,10 @@
 import React from "react";
-import FriedRice from "../../../public/assets/Images/Rectangle 116.png";
-import OfadaStew from "../../../public/assets/Images/Rectangle 117.png";
-import VegStew from "../../../public/assets/Images/Rectangle 118.png";
-import Akara from "../../../public/assets/Images/Rectangle 119.png";
-import MoiMoi from "../../../public/assets/Images/Rectangle 120.png";
-import OfadaRice from "../../../public/assets/Images/Rectangle 121.png";
+import FriedRice from "../../../public/Images/Rectangle 116.png";
+import OfadaStew from "../../../public/Images/Rectangle 117.png";
+import VegStew from "../../../public/Images/Rectangle 118.png";
+import Akara from "../../../public/Images/Rectangle 119.png";
+import MoiMoi from "../../../public/Images/Rectangle 120.png";
+import OfadaRice from "../../../public/Images/Rectangle 121.png";
 import "../BlogPageComponents/BlogLatestArticles.css";
 
 import { Link } from "react-router-dom";

@@ -1,9 +1,9 @@
 import React from "react";
-import stopwatch from "../../../public/assets/Images/timer.png";
-import cutlery from "../../../public/assets/Images/forkknife.png";
-import icon from "../../../public/assets/Images/Ellipse 2.png";
-import play from "../../../public/assets/Images/PlayCircle.png";
-import jollof from "../../../public/assets/Images/image 44.png";
+import stopwatch from "../../../public/Images/timer.png";
+import cutlery from "../../../public/Images/forkknife.png";
+import icon from "../../../public/Images/Ellipse 2.png";
+import play from "../../../public/Images/PlayCircle.png";
+import jollof from "../../../public/Images/image 44.png";
 import "../RecipePageComponents/RecipePageHero.css";
 
 export default function RecipePageHero() {

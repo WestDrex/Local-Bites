@@ -1,10 +1,11 @@
 import React from "react";
 // import whiteLogo from "../../src/assets/Images/Group 21.png";
-import whiteLogo from "../../public/assets/Images/Group 21.png";
+import whiteLogo from "../../public/Images/Group 21.png";
 // import rightImg from "../../src/assets/Images/Rectangle 109.png";
-import rightImg from "../../public/assets/Images/Rectangle 109.png";
+import rightImg from "../../public/Images/Rectangle 109.png";
 // import google from "../../src/assets/Images/image 37.png";
-import google from "../../public/assets/Images/image 37.png";
+import google from "../../public/Images/image 37.png";
+
 import "./LogInPageComponents/LogInPage.css";
 
 import { Link } from "react-router-dom";

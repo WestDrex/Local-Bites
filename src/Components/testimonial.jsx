@@ -1,9 +1,9 @@
 import React from "react";
 import "../Components/testimonial.css";
-import stars from "../../public/assets/Images/rating.png";
-import pic1 from "../../public/assets/Images/Ellipse 9.png";
-import pic2 from "../../public/assets/Images/Ellipse 10.png";
-import pic3 from "../../public/assets/Images/Ellipse 11.png";
+import stars from "../../public/Images/rating.png";
+import pic1 from "../../public/Images/Ellipse 9.png";
+import pic2 from "../../public/Images/Ellipse 10.png";
+import pic3 from "../../public/Images/Ellipse 11.png";
 import { Link } from "react-router-dom";
 
 export default function Testimonial() {

@@ -5,7 +5,7 @@ const RecipeListdata = [
     description:
       "Historians believe the dish originated in Senegal and Gambia during colonial rule in West Africa.",
     // image: "../src/assets/Images/jollof.png",
-    image: "../../../public/assets/Images/jollof.png",
+    image: "../../../public/Images/jollof.png",
     type: "stapleFoods",
     rating: 5,
   },
@@ -15,7 +15,7 @@ const RecipeListdata = [
     description:
       "This originated from Ijebu tribe located in Ogun State, the meal has gained popularity... ",
     // image: "../src/assets/Images/porridge.png",
-    image: "../../../public/assets/Images/porridge.png",
+    image: "../../../public/Images/porridge.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -25,7 +25,7 @@ const RecipeListdata = [
     description:
       "This recipe comes from the culinary mixtures of African, indigenous, and Spanish...",
     // image: "../src/assets/Images/coconut rice.png",
-    image: "../../../public/assets/Images/coconut rice.png",
+    image: "../../../public/Images/coconut rice.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -35,7 +35,7 @@ const RecipeListdata = [
     description:
       "It originated from the Yoruba people and used as a staple food in their cooking... ",
     // image: "../src/assets/Images/ricenstew.png",
-    image: "../../../public/assets/Images/ricenstew.png",
+    image: "../../../public/Images/ricenstew.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -45,7 +45,7 @@ const RecipeListdata = [
     description:
       "The name okra is of West African origin and is cognate with ọ́kụ̀rụ̀ in Igbo, a language...",
     // image: "../src/assets/Images/okro.png",
-    image: "../../../public/assets/Images/okro.png",
+    image: "../../../public/Images/okro.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -56,7 +56,7 @@ const RecipeListdata = [
     description:
       "Pepper soup is a delicious soup originated from West part of Africa. This is made with catfish... ",
     // image: "../src/assets/Images/catfishsoup.png",
-    image: "../../../public/assets/Images/catfishsoup.png",
+    image: "../../../public/Images/catfishsoup.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -66,7 +66,7 @@ const RecipeListdata = [
     description:
       "Ayamase sauce, also known as Designer Stew or Ofada stew, is a spicy stew from the Yoru...",
     // image: "../src/assets/Images/ofadastew.png",
-    image: "../../../public/assets/Images/ofadastew.png",
+    image: "../../../public/Images/ofadastew.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -76,7 +76,7 @@ const RecipeListdata = [
     description:
       "Pepper soup is a delicious soup originated from West part of Africa. This is made with goat ... ",
     // image: "../src/assets/Images/goatmeatsoup.png",
-    image: "../../../public/assets/Images/goatmeatsoup.png",
+    image: "../../../public/Images/goatmeatsoup.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -86,7 +86,7 @@ const RecipeListdata = [
     description:
       "Egg stew is a favourite in many households in Nigeria due to its versatility. It can be ... ",
     // image: "../src/assets/Images/eggstew.png",
-    image: "../../../public/assets/Images/eggstew.png",
+    image: "../../../public/Images/eggstew.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -96,7 +96,7 @@ const RecipeListdata = [
     description:
       "Egusi soup originated from the Igbo tribe of Nigeria and is eaten mostly by the southern tribes...",
     // image: "../src/assets/Images/egusi.png",
-    image: "../../../public/assets/Images/egusi.png",
+    image: "../../../public/Images/egusi.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -107,7 +107,7 @@ const RecipeListdata = [
     description:
       "Moin-moin or moi-moi (Yoruba) is a steamed or boiled bean pudding made from... ",
     // image: "../src/assets/Images/moimoi.png",
-    image: "../../../public/assets/Images/moimoi.png",
+    image: "../../../public/Images/moimoi.png",
     type: "saladSides",
     rating: 5,
   },
@@ -117,7 +117,7 @@ const RecipeListdata = [
     description:
       "Abacha originated from Igbo's ideology that salad has vegetables without cooking.. ",
     // image: "../src/assets/Images/abacha.png",
-    image: "../../../public/assets/Images/abacha.png",
+    image: "../../../public/Images/abacha.png",
     type: "saladSides",
     rating: 5,
   },
@@ -127,7 +127,7 @@ const RecipeListdata = [
     description:
       "It originates from the south-western part of Nigeria where the Yoruba come from...",
     // image: "../src/assets/Images/spinachstew.png",
-    image: "../../../public/assets/Images/spinachstew.png",
+    image: "../../../public/Images/spinachstew.png",
     type: "saladSides",
     rating: 5,
   },
@@ -137,7 +137,7 @@ const RecipeListdata = [
     description:
       "It is basically a delicious meal of cow meat prepared in spicy palm oil sauce and garnished...",
     // image: "../src/assets/Images/nkwobi.png",
-    image: "../../../public/assets/Images/nkwobi.png",
+    image: "../../../public/Images/nkwobi.png",
     type: "saladSides",
     rating: 5,
   },
@@ -147,7 +147,7 @@ const RecipeListdata = [
     description:
       "The origin of the original asun recipe is from Ondo State, the 18th most popular state in Nigeria...",
     // image: "../src/assets/Images/asun.png",
-    image: "../../../public/assets/Images/asun.png",
+    image: "../../../public/Images/asun.png",
     type: "saladSides",
     rating: 5,
   },
@@ -158,7 +158,7 @@ const RecipeListdata = [
     description:
       "The taste was also made to come alive with awesome herbs such as coriander...",
     // image: "../src/assets/Images/mbuzi.png",
-    image: "../../../public/assets/Images/mbuzi.png",
+    image: "../../../public/Images/mbuzi.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -168,7 +168,7 @@ const RecipeListdata = [
     description:
       "Of all the street foods you'll find in Nigeria, roasted corn is definitely one of my favourites...",
     // image: "../src/assets/Images/corn.png",
-    image: "../../../public/assets/Images/corn.png",
+    image: "../../../public/Images/corn.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -178,7 +178,7 @@ const RecipeListdata = [
     description:
       "This is believed to have originated with the Hausa people in Northern Nigeria, but it is now...",
     // image: "../src/assets/Images/suya.png",
-    image: "../../../public/assets/Images/suya.png",
+    image: "../../../public/Images/suya.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -188,7 +188,7 @@ const RecipeListdata = [
     description:
       "It is so popular in the northern Nigeria where there were pyramids of groundnut...",
     // image: "../src/assets/Images/peanuts.png",
-    image: "../../../public/assets/Images/peanuts.png",
+    image: "../../../public/Images/peanuts.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -198,7 +198,7 @@ const RecipeListdata = [
     description:
       "Bole is a roasted plantain snack or meal in Nigeria. It is native to the Yoruba people of Nigeria...",
     // image: "../src/assets/Images/bole.png",
-    image: "../../../public/assets/Images/bole.png",
+    image: "../../../public/Images/bole.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -209,7 +209,7 @@ const RecipeListdata = [
     description:
       "Shawarma actually came to Nigeria through Lebanese immigrants who settled here...",
     // image: "../src/assets/Images/shawarma.png",
-    image: "../../../public/assets/Images/shawarma.png",
+    image: "../../../public/Images/shawarma.png",
     type: "snacks",
     rating: 5,
   },
@@ -219,7 +219,7 @@ const RecipeListdata = [
     description:
       "These were established in Nigeria during British colonization by the Greeks and... Read More.",
     // image: "../src/assets/Images/meatpie.png",
-    image: "../../../public/assets/Images/meatpie.png",
+    image: "../../../public/Images/meatpie.png",
     type: "snacks",
     rating: 5,
   },
@@ -229,7 +229,7 @@ const RecipeListdata = [
     description:
       "It originated in the Netherlands, brought to the West Africa with the Dutch colonizers...",
     // image: "../src/assets/Images/puffpuff.png",
-    image: "../../../public/assets/Images/puffpuff.png",
+    image: "../../../public/Images/puffpuff.png",
     type: "snacks",
     rating: 5,
   },
@@ -239,7 +239,7 @@ const RecipeListdata = [
     description:
       "Sausage roll made its entry into the Nigerian market with Gala, the first brand from...",
     // image: "../src/assets/Images/sausage.png",
-    image: "../../../public/assets/Images/sausage.png",
+    image: "../../../public/Images/sausage.png",
     type: "snacks",
     rating: 5,
   },
@@ -249,7 +249,7 @@ const RecipeListdata = [
     description:
       "This crunchy snack has found its place as an integral part of Nigerian festivities... ",
     // image: "../src/assets/Images/chinchin.png",
-    image: "../../../public/assets/Images/chinchin.png",
+    image: "../../../public/Images/chinchin.png",
     type: "snacks",
     rating: 5,
   },

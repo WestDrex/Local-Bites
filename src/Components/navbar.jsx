@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../public/assets/Images/logo.png";
-import user from "../../public/assets/Images/user.png";
-import cart from "../../public/assets/Images/cart.png";
+import logo from "../../public/Images/logo.png";
+import user from "../../public/Images/user.png";
+import cart from "../../public/Images/cart.png";
 import "../Components/navbar.css";
 import { Link, useLocation } from "react-router-dom";
 
