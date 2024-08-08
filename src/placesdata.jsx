@@ -3,7 +3,9 @@ const placesData = [
     id: 1,
     name: "Lagos",
     // image: "../src/assets/Images/lagos.png",
-    image: "../../public/Images/Lagos.png",
+    // image: "../../public/Images/Lagos.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723111926/Lagos_z10q33.png",
     rating: 5,
   },
   {

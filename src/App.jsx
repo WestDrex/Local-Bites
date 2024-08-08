@@ -16,8 +16,12 @@ import SignUp from "./Pages/SignUpPageComponents/SignUpPage";
 import MultipleFoodlists from "./Pages/RecipePageComponents/Multifoodlist";
 import RecipePageFoodlist from "./Pages/RecipePageComponents/RecipePageFoodlist";
 import RecipeListdata from "./Pages/RecipePageComponents/RecipeFoodlistData";
-
 import LogInPage from "./Pages/LoginPage";
+
+// import { Cloudinary } from '@cloudinary/url-gen';
+// import { auto } from '@cloudinary/url-gen/actions/resize';
+// import { autoGravity } from '@cloudinary/url-gen/qualifiers/gravity';
+// import { AdvancedImage } from '@cloudinary/react';
 
 export default function App() {
   return (
