@@ -5,7 +5,8 @@ const RecipeListdata = [
     description:
       "Historians believe the dish originated in Senegal and Gambia during colonial rule in West Africa.",
     // image: "../src/assets/Images/jollof.png",
-    image: "../../../public/Images/jollof.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112714/jollof_dxyetr.png",
     type: "stapleFoods",
     rating: 5,
   },
@@ -15,7 +16,8 @@ const RecipeListdata = [
     description:
       "This originated from Ijebu tribe located in Ogun State, the meal has gained popularity... ",
     // image: "../src/assets/Images/porridge.png",
-    image: "../../../public/Images/porridge.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112727/porridge_onjoux.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -25,7 +27,8 @@ const RecipeListdata = [
     description:
       "This recipe comes from the culinary mixtures of African, indigenous, and Spanish...",
     // image: "../src/assets/Images/coconut rice.png",
-    image: "../../../public/Images/coconut rice.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112707/coconut_rice_xz47bv.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -35,7 +38,8 @@ const RecipeListdata = [
     description:
       "It originated from the Yoruba people and used as a staple food in their cooking... ",
     // image: "../src/assets/Images/ricenstew.png",
-    image: "../../../public/Images/ricenstew.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112727/ricenstew_oclaop.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -45,7 +49,8 @@ const RecipeListdata = [
     description:
       "The name okra is of West African origin and is cognate with ọ́kụ̀rụ̀ in Igbo, a language...",
     // image: "../src/assets/Images/okro.png",
-    image: "../../../public/Images/okro.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112720/okro_t0ytj4.png",
     rating: 5,
     type: "stapleFoods",
   },
@@ -56,7 +61,8 @@ const RecipeListdata = [
     description:
       "Pepper soup is a delicious soup originated from West part of Africa. This is made with catfish... ",
     // image: "../src/assets/Images/catfishsoup.png",
-    image: "../../../public/Images/catfishsoup.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112707/catfishsoup_yodsgk.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -66,7 +72,8 @@ const RecipeListdata = [
     description:
       "Ayamase sauce, also known as Designer Stew or Ofada stew, is a spicy stew from the Yoru...",
     // image: "../src/assets/Images/ofadastew.png",
-    image: "../../../public/Images/ofadastew.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112716/ofadastew_dgx2tp.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -76,7 +83,8 @@ const RecipeListdata = [
     description:
       "Pepper soup is a delicious soup originated from West part of Africa. This is made with goat ... ",
     // image: "../src/assets/Images/goatmeatsoup.png",
-    image: "../../../public/Images/goatmeatsoup.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113014/goatmeatsoup_pxbqav.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -86,7 +94,8 @@ const RecipeListdata = [
     description:
       "Egg stew is a favourite in many households in Nigeria due to its versatility. It can be ... ",
     // image: "../src/assets/Images/eggstew.png",
-    image: "../../../public/Images/eggstew.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112714/eggstew_tpvyvm.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -96,7 +105,8 @@ const RecipeListdata = [
     description:
       "Egusi soup originated from the Igbo tribe of Nigeria and is eaten mostly by the southern tribes...",
     // image: "../src/assets/Images/egusi.png",
-    image: "../../../public/Images/egusi.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112715/egusi_fzel9u.png",
     type: "soupsStews",
     rating: 5,
   },
@@ -107,7 +117,8 @@ const RecipeListdata = [
     description:
       "Moin-moin or moi-moi (Yoruba) is a steamed or boiled bean pudding made from... ",
     // image: "../src/assets/Images/moimoi.png",
-    image: "../../../public/Images/moimoi.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112715/moimoi_w8leam.png",
     type: "saladSides",
     rating: 5,
   },
@@ -117,7 +128,8 @@ const RecipeListdata = [
     description:
       "Abacha originated from Igbo's ideology that salad has vegetables without cooking.. ",
     // image: "../src/assets/Images/abacha.png",
-    image: "../../../public/Images/abacha.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112707/abacha_of29sb.png",
     type: "saladSides",
     rating: 5,
   },
@@ -127,7 +139,8 @@ const RecipeListdata = [
     description:
       "It originates from the south-western part of Nigeria where the Yoruba come from...",
     // image: "../src/assets/Images/spinachstew.png",
-    image: "../../../public/Images/spinachstew.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113108/spinachstew_vwu8sp.png",
     type: "saladSides",
     rating: 5,
   },
@@ -138,7 +151,8 @@ const RecipeListdata = [
       "It is basically a delicious meal of cow meat prepared in spicy palm oil sauce and garnished...",
     // image: "../src/assets/Images/nkwobi.png",
     // image: "../../../public/Images/nkwobi.png",
-    image: "../src/Images/nkwobi.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113144/nkwobi_ychbdn.png",
     type: "saladSides",
     rating: 5,
   },
@@ -148,7 +162,8 @@ const RecipeListdata = [
     description:
       "The origin of the original asun recipe is from Ondo State, the 18th most popular state in Nigeria...",
     // image: "../src/assets/Images/asun.png",
-    image: "../../../public/Images/asun.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112706/asun_marv2r.png",
     type: "saladSides",
     rating: 5,
   },
@@ -159,7 +174,8 @@ const RecipeListdata = [
     description:
       "The taste was also made to come alive with awesome herbs such as coriander...",
     // image: "../src/assets/Images/mbuzi.png",
-    image: "../../../public/Images/mbuzi.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113194/mbuzi_hiz5p5.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -169,7 +185,8 @@ const RecipeListdata = [
     description:
       "Of all the street foods you'll find in Nigeria, roasted corn is definitely one of my favourites...",
     // image: "../src/assets/Images/corn.png",
-    image: "../../../public/Images/corn.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112714/corn_o6k52g.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -179,7 +196,8 @@ const RecipeListdata = [
     description:
       "This is believed to have originated with the Hausa people in Northern Nigeria, but it is now...",
     // image: "../src/assets/Images/suya.png",
-    image: "../../../public/Images/suya.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112706/suya_l6fexh.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -189,7 +207,8 @@ const RecipeListdata = [
     description:
       "It is so popular in the northern Nigeria where there were pyramids of groundnut...",
     // image: "../src/assets/Images/peanuts.png",
-    image: "../../../public/Images/peanuts.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112726/peanuts_i4bvid.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -199,7 +218,8 @@ const RecipeListdata = [
     description:
       "Bole is a roasted plantain snack or meal in Nigeria. It is native to the Yoruba people of Nigeria...",
     // image: "../src/assets/Images/bole.png",
-    image: "../../../public/Images/bole.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112706/bole_pbefms.png",
     type: "streetFoods",
     rating: 5,
   },
@@ -210,7 +230,8 @@ const RecipeListdata = [
     description:
       "Shawarma actually came to Nigeria through Lebanese immigrants who settled here...",
     // image: "../src/assets/Images/shawarma.png",
-    image: "../../../public/Images/shawarma.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112728/shawarma_u63syw.png",
     type: "snacks",
     rating: 5,
   },
@@ -220,7 +241,8 @@ const RecipeListdata = [
     description:
       "These were established in Nigeria during British colonization by the Greeks and... Read More.",
     // image: "../src/assets/Images/meatpie.png",
-    image: "../../../public/Images/meatpie.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112715/meatpie_kult2a.png",
     type: "snacks",
     rating: 5,
   },
@@ -230,7 +252,8 @@ const RecipeListdata = [
     description:
       "It originated in the Netherlands, brought to the West Africa with the Dutch colonizers...",
     // image: "../src/assets/Images/puffpuff.png",
-    image: "../../../public/Images/puffpuff.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113330/puffpuff_o6lto5.png",
     type: "snacks",
     rating: 5,
   },
@@ -240,7 +263,8 @@ const RecipeListdata = [
     description:
       "Sausage roll made its entry into the Nigerian market with Gala, the first brand from...",
     // image: "../src/assets/Images/sausage.png",
-    image: "../../../public/Images/sausage.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723113380/sausage_arcta5.png",
     type: "snacks",
     rating: 5,
   },
@@ -250,7 +274,8 @@ const RecipeListdata = [
     description:
       "This crunchy snack has found its place as an integral part of Nigerian festivities... ",
     // image: "../src/assets/Images/chinchin.png",
-    image: "../../../public/Images/chinchin.png",
+    image:
+      "https://res.cloudinary.com/dyntb0gv5/image/upload/v1723112707/chinchin_sjkmyp.png",
     type: "snacks",
     rating: 5,
   },
