@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
-      <div className="hamburger" onClick={toggleMenu}>
+      <div className="hamburger1" onClick={toggleMenu}>
         <div></div>
         <div></div>
         <div></div>

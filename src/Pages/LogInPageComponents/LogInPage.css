@@ -24,9 +24,12 @@ label {
 .linkstyles {
   text-decoration: none;
 }
+.topText h4 {
+  text-align: center;
+}
 
-@media screen and (max-width: 380px) {
-  .rightImg {
-    
+@media screen and (max-width: 640px) {
+  .textUnderPassword {
+    gap: 40px;
   }
 }
