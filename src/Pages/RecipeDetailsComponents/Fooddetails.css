@@ -335,3 +335,142 @@ h4 {
   top: 255px;
   left: 630px;
 }
+
+@media (max-width: 1024px) {
+  .details-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .details-title {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .details-order-btn {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .detail-item {
+    margin-right: 0;
+    flex: 1 1 100%;
+  }
+
+  .details-image-container .playbtn {
+    height: 90px;
+    width: 90px;
+  }
+
+  .details-other-recipes .details-recipe img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .fors {
+    font-size: 20px;
+  }
+
+  .directions h2 {
+    font-size: 36px;
+  }
+
+  .details-ingredients h2,
+  .details-other-recipes h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .details-title {
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  .details-order-btn {
+    font-size: 20px;
+  }
+
+  .details-image-container .playbtn {
+    height: 60px;
+    width: 60px;
+  }
+
+  .detail-item h2 {
+    font-size: 14px;
+  }
+
+  .detail-item p {
+    font-size: 10px;
+  }
+
+  .detail-item h4 {
+    font-size: 14px;
+  }
+
+  .fors {
+    font-size: 18px;
+  }
+
+  .directions h2 {
+    font-size: 28px;
+  }
+
+  .details-ingredients h2,
+  .details-other-recipes h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-title {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .details-order-btn {
+    font-size: 16px;
+  }
+
+  .detail-item h2 {
+    font-size: 12px;
+  }
+
+  .detail-item p {
+    font-size: 8px;
+  }
+
+  .detail-item h4 {
+    font-size: 12px;
+  }
+
+  .fors {
+    font-size: 16px;
+  }
+
+  .directions h2 {
+    font-size: 24px;
+  }
+
+  .details-other-recipes {
+    display: none;
+  }
+  .details-ingredients h2,
+  .details-other-recipes h2 {
+    font-size: 24px;
+  }
+
+  .details-image-container img {
+    width: 100%;
+  }
+
+  .details-image-container .playbtn {
+    height: 145px;
+    width: 145px;
+  }
+}

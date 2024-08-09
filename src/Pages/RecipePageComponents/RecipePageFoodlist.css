@@ -158,7 +158,8 @@
 
   .foodlist-main-card {
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
+    height: 250px;
   }
 
   .foodlist-dish-image {
