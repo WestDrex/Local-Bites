@@ -89,7 +89,7 @@
   font-family: Poppins, sans-serif;
   font-size: 16px;
 }
-.hamburger {
+.hamburger1 {
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -97,34 +97,36 @@
   margin-right: auto;
   padding-top: 70px;
 }
-.hamburger div {
+.hamburger1 div {
   width: 50px;
   height: 5px;
   background: #070707;
   margin: 4px 0;
 }
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .recipe-navbar,
   .recipe-nav-button {
     display: none;
   }
   .recipe-navbar {
     gap: 21px;
+    flex-direction: column;
+    margin-left: 20px;
   }
   .recipe-nav-button {
     margin-left: auto;
   }
-  .hamburger {
+  .hamburger1 {
     display: flex;
   }
   .nav-active {
     display: flex;
   }
-} */
+}
 
-@media screen and (max-width: 768px) {
-  .hamburger {
+/* @media screen and (max-width: 768px) {
+  .hamburger1 {
     display: flex;
   }
 
@@ -153,7 +155,7 @@
     height: 90px;
   }
 
-  .hamburger div {
+  .hamburger1 div {
     width: 20px;
     height: 2px;
     margin-left: 30px;
@@ -166,10 +168,10 @@
     margin-left: -20px;
     width: 90px;
   }
-  .hamburger {
+  .hamburger1 {
     margin-bottom: auto;
   }
   .nav-active {
     margin-bottom: 300px;
   }
-}
+} */

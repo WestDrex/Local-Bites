@@ -15,7 +15,7 @@ export default function RecipeDetailsNav() {
     <nav className="recipe-navbar-container">
       <img src={logo} alt="logo" className="logo" />
 
-      <div className="hamburger" onClick={toggleMenu}>
+      <div className="hamburger1" onClick={toggleMenu}>
         <div></div>
         <div></div>
         <div></div>
